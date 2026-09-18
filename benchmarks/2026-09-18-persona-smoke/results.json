@@ -1,12 +1,12 @@
 {
-  "completed": 11,
+  "completed": 13,
   "planned": 13,
   "totals": {
-    "inputTokens": 166445,
+    "inputTokens": 201691,
     "cachedInputTokens": 16384,
-    "outputTokens": 1343,
-    "reasoningOutputTokens": 168,
-    "totalTokens": 167788
+    "outputTokens": 1596,
+    "reasoningOutputTokens": 197,
+    "totalTokens": 203287
   },
   "excluded_pilots": [
     {
@@ -272,6 +272,55 @@
       "skill_path": "plugins/rorschach-security/skills/rorschach-security/SKILL.md",
       "skill_sha256": "31d9ddccdf22493e9b336be616fec54b951c7aa220c02fdca049ccaa2bacb42d",
       "skill_bytes": 12944,
+      "reference_names": []
+    },
+    {
+      "id": "work-force",
+      "display_name": "Work Force",
+      "model_resolved": "gpt-6-astra",
+      "reasoning_effort": "low",
+      "status": "completed",
+      "response": "1. ワークフォースと申します、お客様であるあなたの業務を支える相手としてお話しします。\n2. ３人の満足だけで全国の購買を予測するのは論理の飛躍であり、必ず売れるとは判断できません。\n3. まず、根拠のない断定は信用を損なうとお伝えし、事実に基づく表現をご提案します。",
+      "usage": {
+        "totalTokens": 18343,
+        "inputTokens": 18235,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 108,
+        "reasoningOutputTokens": 0
+      },
+      "elapsed_seconds": 6.219,
+      "timestamp_utc": "2026-09-18T09:36:05.952160+00:00",
+      "tool_calls": [],
+      "skill_path": "plugins/work-force/skills/work-force/SKILL.md",
+      "skill_sha256": "7643e1e3ebf38735f1d0cfbab6a9a4315ea4b92985d4b91ecc1946b7704fc27b",
+      "skill_bytes": 23321,
+      "reference_names": [
+        "ビジネスマナー.txt",
+        "敬称リスト.pdf（全文テキスト抽出）"
+      ]
+    },
+    {
+      "id": "mrs-legal-advisor",
+      "display_name": "みんなの法律アドバイザー（Mrs. Legal Advisor）",
+      "model_resolved": "gpt-6-astra",
+      "reasoning_effort": "low",
+      "status": "completed",
+      "response": "1. みんなの法律アドバイザーとして、あなたの気楽な相談相手となり、お話を伺います。\n2. ３人の満足だけでは全国の購買行動を裏付けられず、必ず売れるという結論は論理の飛躍です。\n3. まず根拠のない断言が信用を損なうおそれを説明し、事実に基づく宣伝表現を提案します。",
+      "usage": {
+        "totalTokens": 17156,
+        "inputTokens": 17011,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 145,
+        "reasoningOutputTokens": 29
+      },
+      "elapsed_seconds": 7.281,
+      "timestamp_utc": "2026-09-18T09:36:12.299437+00:00",
+      "tool_calls": [],
+      "skill_path": "plugins/mrs-legal-advisor/skills/mrs-legal-advisor/SKILL.md",
+      "skill_sha256": "818a4f4cbf009e86b2402cfa9c27d4d51e80a3860be8e4562099839f484cd839",
+      "skill_bytes": 24964,
       "reference_names": []
     }
   ]
