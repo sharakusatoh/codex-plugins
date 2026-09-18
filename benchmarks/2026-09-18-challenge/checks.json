@@ -1,0 +1,234 @@
+{
+  "acepilot--baseline": {
+    "characters": [
+      311,
+      492
+    ],
+    "revision_similarity": 0.37,
+    "code_tests": [
+      {
+        "case": 1,
+        "passed": true,
+        "actual": {},
+        "input_unchanged": true
+      },
+      {
+        "case": 2,
+        "passed": true,
+        "actual": {
+          "A": 10
+        },
+        "input_unchanged": true
+      },
+      {
+        "case": 3,
+        "passed": true,
+        "actual": {
+          "B": 20
+        },
+        "input_unchanged": true
+      },
+      {
+        "case": 4,
+        "passed": true,
+        "actual": {},
+        "input_unchanged": true
+      },
+      {
+        "case": 5,
+        "passed": true,
+        "actual": {
+          "C": 30
+        },
+        "input_unchanged": true
+      },
+      {
+        "case": 6,
+        "passed": true,
+        "actual": {
+          "A": 10
+        },
+        "input_unchanged": true
+      },
+      {
+        "case": 7,
+        "passed": true,
+        "actual": {},
+        "input_unchanged": true
+      },
+      {
+        "case": 8,
+        "passed": true,
+        "actual": {
+          "A": 10
+        },
+        "input_unchanged": true
+      },
+      {
+        "case": 9,
+        "passed": true,
+        "actual": {
+          "B": 8
+        },
+        "input_unchanged": true
+      },
+      {
+        "case": 10,
+        "passed": true,
+        "actual": {
+          "B": 20,
+          "A": 15
+        },
+        "input_unchanged": true
+      },
+      {
+        "case": 11,
+        "passed": true,
+        "actual": {},
+        "input_unchanged": true
+      },
+      {
+        "case": 12,
+        "passed": true,
+        "actual": {},
+        "input_unchanged": true
+      }
+    ],
+    "passed": 12,
+    "function_count": 1,
+    "class_count": 0,
+    "imports": 0,
+    "code_nonblank_lines": 17,
+    "explanation_chars": 90
+  },
+  "acepilot--plugin": {
+    "characters": [
+      361,
+      535
+    ],
+    "revision_similarity": 0.224,
+    "code_tests": [
+      {
+        "case": 1,
+        "passed": true,
+        "actual": {},
+        "input_unchanged": true
+      },
+      {
+        "case": 2,
+        "passed": true,
+        "actual": {
+          "A": 10
+        },
+        "input_unchanged": true
+      },
+      {
+        "case": 3,
+        "passed": true,
+        "actual": {
+          "B": 20
+        },
+        "input_unchanged": true
+      },
+      {
+        "case": 4,
+        "passed": true,
+        "actual": {},
+        "input_unchanged": true
+      },
+      {
+        "case": 5,
+        "passed": true,
+        "actual": {
+          "C": 30
+        },
+        "input_unchanged": true
+      },
+      {
+        "case": 6,
+        "passed": true,
+        "actual": {
+          "A": 10
+        },
+        "input_unchanged": true
+      },
+      {
+        "case": 7,
+        "passed": true,
+        "actual": {},
+        "input_unchanged": true
+      },
+      {
+        "case": 8,
+        "passed": true,
+        "actual": {
+          "A": 10
+        },
+        "input_unchanged": true
+      },
+      {
+        "case": 9,
+        "passed": true,
+        "actual": {
+          "B": 8
+        },
+        "input_unchanged": true
+      },
+      {
+        "case": 10,
+        "passed": true,
+        "actual": {
+          "B": 20,
+          "A": 15
+        },
+        "input_unchanged": true
+      },
+      {
+        "case": 11,
+        "passed": true,
+        "actual": {},
+        "input_unchanged": true
+      },
+      {
+        "case": 12,
+        "passed": true,
+        "actual": {},
+        "input_unchanged": true
+      }
+    ],
+    "passed": 12,
+    "function_count": 1,
+    "class_count": 0,
+    "imports": 0,
+    "code_nonblank_lines": 17,
+    "explanation_chars": 109
+  },
+  "beautiful-dreamer--baseline": {
+    "characters": [
+      99,
+      146
+    ],
+    "revision_similarity": 0.129,
+    "final_banned_strings": {
+      "傷も思い出": 0,
+      "もう一度": 0,
+      "物語": 0,
+      "未来": 0,
+      "あなたらしさ": 0
+    }
+  },
+  "sherlock-report--baseline": {
+    "characters": [
+      543,
+      455
+    ],
+    "revision_similarity": 0.179
+  },
+  "sherlock-report--plugin": {
+    "characters": [
+      603,
+      518
+    ],
+    "revision_similarity": 0.104
+  }
+}

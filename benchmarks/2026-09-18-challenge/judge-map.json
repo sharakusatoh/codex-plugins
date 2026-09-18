@@ -1,0 +1,62 @@
+{
+  "case01": {
+    "task": "sherlock-report",
+    "A": "plugin",
+    "B": "baseline"
+  },
+  "case02": {
+    "task": "acepilot",
+    "A": "plugin",
+    "B": "baseline"
+  },
+  "case03": {
+    "task": "beautiful-dreamer",
+    "A": "baseline",
+    "B": "plugin"
+  },
+  "case04": {
+    "task": "edgar-rumple",
+    "A": "plugin",
+    "B": "baseline"
+  },
+  "case05": {
+    "task": "expert-moriarty",
+    "A": "baseline",
+    "B": "plugin"
+  },
+  "case06": {
+    "task": "flight-attendant",
+    "A": "plugin",
+    "B": "baseline"
+  },
+  "case07": {
+    "task": "ghost-blogger",
+    "A": "baseline",
+    "B": "plugin"
+  },
+  "case08": {
+    "task": "inspire-lestrade",
+    "A": "plugin",
+    "B": "baseline"
+  },
+  "case09": {
+    "task": "mycroft-debater",
+    "A": "baseline",
+    "B": "plugin"
+  },
+  "case10": {
+    "task": "rorschach-security",
+    "A": "baseline",
+    "B": "plugin"
+  },
+  "case11": {
+    "task": "work-force",
+    "A": "baseline",
+    "B": "plugin"
+  },
+  "case12": {
+    "task": "mrs-legal-advisor",
+    "A": "plugin",
+    "B": "baseline"
+  }
+}
