@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "model": "gpt-6-astra",
+  "effort": "low",
+  "design": "12 paired 2-turn conversations; one run per condition; predetermined second user turn; alternate condition order; no optional reruns.",
+  "grading": "4 task-specific dimensions, 0-4 each; new independent model context with randomized A/B labels and persona names redacted. Same model as respondents; evaluator may infer persona. Not human/external validation.",
+  "scale": {
+    "0": "誤り/欠落で目的を果たせない",
+    "1": "重大な不足・誤りが残る",
+    "2": "概ね妥当だが重要な曖昧さ/不足がある",
+    "3": "正確・具体的で重要な要件を満たす",
+    "4": "3に加え、難所を統合し、条件付きの判断や検証まで非常に明確"
+  },
+  "cost_policy": "48 response turns + 4 batch judge calls; low effort; task-specific length limits; no search and no extra retries for nicer results.",
+  "method_notes": [
+    "内容の正確性/更新と表現量を分ける。長文/人格口調自体を加点しない。",
+    "人格全文と必須資料を維持。ツールなしの机上試験。",
+    "第2ターンは実際の同じセッションで継続。質問には固定追加入力で対応するため対話全般は測れない。",
+    "各人格1シナリオなので安定した性能差は証明しない。差がない場合もそのまま公開。",
+    "実行コードテストと禁止語/字数チェックは採点とは別指標。",
+    "採点用ラベル対応はseed固定。基準・採点指示・テストケースは回答前に公開。"
+  ]
+}

@@ -1,0 +1,232 @@
+[
+  {
+    "events": [],
+    "expected": {}
+  },
+  {
+    "events": [
+      {
+        "id": "x",
+        "account": "A",
+        "amount": 10,
+        "revision": 1
+      },
+      {
+        "id": "x",
+        "account": "A",
+        "amount": 10,
+        "revision": 1
+      }
+    ],
+    "expected": {
+      "A": 10
+    }
+  },
+  {
+    "events": [
+      {
+        "id": "x",
+        "account": "A",
+        "amount": 10,
+        "revision": 1
+      },
+      {
+        "id": "x",
+        "account": "B",
+        "amount": 20,
+        "revision": 2
+      }
+    ],
+    "expected": {
+      "B": 20
+    }
+  },
+  {
+    "events": [
+      {
+        "id": "x",
+        "account": "A",
+        "amount": 0,
+        "revision": 5
+      },
+      {
+        "id": "x",
+        "account": "A",
+        "amount": 10,
+        "revision": 4
+      }
+    ],
+    "expected": {}
+  },
+  {
+    "events": [
+      {
+        "id": "x",
+        "account": "A",
+        "amount": 10,
+        "revision": 1
+      },
+      {
+        "id": "x",
+        "account": "B",
+        "amount": 0,
+        "revision": 2
+      },
+      {
+        "id": "x",
+        "account": "C",
+        "amount": 30,
+        "revision": 3
+      }
+    ],
+    "expected": {
+      "C": 30
+    }
+  },
+  {
+    "events": [
+      {
+        "id": "x",
+        "account": "A",
+        "amount": 10,
+        "revision": 2
+      },
+      {
+        "id": "x",
+        "account": "B",
+        "amount": 20,
+        "revision": 2
+      }
+    ],
+    "expected": {
+      "A": 10
+    }
+  },
+  {
+    "events": [
+      {
+        "id": "x",
+        "account": "A",
+        "amount": 10,
+        "revision": 1
+      },
+      {
+        "id": "y",
+        "account": "A",
+        "amount": -10,
+        "revision": 1
+      }
+    ],
+    "expected": {}
+  },
+  {
+    "events": [
+      {
+        "id": "x",
+        "account": "A",
+        "amount": 10,
+        "revision": 9
+      },
+      {
+        "id": "x",
+        "account": "B",
+        "amount": 999,
+        "revision": 1
+      }
+    ],
+    "expected": {
+      "A": 10
+    }
+  },
+  {
+    "events": [
+      {
+        "id": "x",
+        "account": "A",
+        "amount": 5,
+        "revision": -1
+      },
+      {
+        "id": "x",
+        "account": "B",
+        "amount": 8,
+        "revision": 0
+      }
+    ],
+    "expected": {
+      "B": 8
+    }
+  },
+  {
+    "events": [
+      {
+        "id": "x",
+        "account": "A",
+        "amount": 10,
+        "revision": 1
+      },
+      {
+        "id": "y",
+        "account": "A",
+        "amount": 15,
+        "revision": 1
+      },
+      {
+        "id": "x",
+        "account": "B",
+        "amount": 20,
+        "revision": 2
+      }
+    ],
+    "expected": {
+      "A": 15,
+      "B": 20
+    }
+  },
+  {
+    "events": [
+      {
+        "id": "x",
+        "account": "A",
+        "amount": 10,
+        "revision": 1
+      },
+      {
+        "id": "x",
+        "account": "A",
+        "amount": 0,
+        "revision": 3
+      },
+      {
+        "id": "x",
+        "account": "A",
+        "amount": 20,
+        "revision": 3
+      }
+    ],
+    "expected": {}
+  },
+  {
+    "events": [
+      {
+        "id": "x",
+        "account": "A",
+        "amount": 0,
+        "revision": 1
+      },
+      {
+        "id": "x",
+        "account": "B",
+        "amount": -5,
+        "revision": 2
+      },
+      {
+        "id": "y",
+        "account": "B",
+        "amount": 5,
+        "revision": 1
+      }
+    ],
+    "expected": {}
+  }
+]

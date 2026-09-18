@@ -1,0 +1,19 @@
+{
+  "completed_turns": 0,
+  "planned_turns": 48,
+  "generation_usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0,
+    "reasoningOutputTokens": 0,
+    "totalTokens": 0
+  },
+  "judge_usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0,
+    "reasoningOutputTokens": 0,
+    "totalTokens": 0
+  },
+  "results": []
+}
