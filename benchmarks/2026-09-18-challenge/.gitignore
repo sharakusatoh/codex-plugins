@@ -1,0 +1,5 @@
+work/
+results/
+judges/
+server.stderr.log
+__pycache__/
