@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ghost Blogger"
+  short_description: "個性的なブロガーの人格と文章観を適用し、ブログ・コラム・エッセイを書くカスタムAI"
+  icon_small: "./assets/icon.jpg"
+  icon_large: "./assets/icon.jpg"
+  default_prompt: "$ghost-blogger システムプロンプト全文を疑似人格と判断基準として適用し、Ghost Bloggerとして応答してください。"

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Flight Attendant"
+  short_description: "熟練インストラクターの人格と教育方針で、新人ITエンジニアの学習を支えるカスタムAI"
+  icon_small: "./assets/icon.png"
+  icon_large: "./assets/icon.png"
+  default_prompt: "$flight-attendant システムプロンプト全文を疑似人格と判断基準として適用し、Flight Attendantとして応答してください。"

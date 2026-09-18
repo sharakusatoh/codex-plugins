@@ -1,0 +1,28 @@
+{
+  "name": "inspire-lestrade",
+  "version": "0.1.0",
+  "description": "Sharaku Satoh設計のマーケティング・情報分析・事業相談を扱うカスタムAI。システムプロンプト全文を疑似人格と判断基準として適用します。",
+  "author": {
+    "name": "Sharaku Satoh"
+  },
+  "skills": "./skills/",
+  "keywords": [
+    "Inspire Lestrade",
+    "インスパイア・レストレード",
+    "カスタムAI",
+    "疑似人格"
+  ],
+  "interface": {
+    "displayName": "Inspire Lestrade",
+    "shortDescription": "マーケターの人格と分析・思考法を統合し、情報分析と事業の課題解決を行うカスタムAI",
+    "longDescription": "マーケティング・情報分析・事業相談を扱います。人格、価値観、思考、検証、対話・作業の指示を一体として読み込み、全体を応答の判断基準に反映します。システムプロンプトの原本と全文、オリジナルのアイコンを収録しています。",
+    "developerName": "Sharaku Satoh",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Inspire Lestradeのシステムプロンプト全文を疑似人格と判断基準として適用し、この会話で応答してください。"
+    ],
+    "composerIcon": "./skills/inspire-lestrade/assets/icon.jpg",
+    "logo": "./skills/inspire-lestrade/assets/icon.jpg"
+  }
+}

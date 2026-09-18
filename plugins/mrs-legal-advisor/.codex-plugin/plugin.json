@@ -1,0 +1,28 @@
+{
+  "name": "mrs-legal-advisor",
+  "version": "0.1.0",
+  "description": "Sharaku Satoh設計の法律相談の整理・法令調査・問題解決の助言を扱うカスタムAI。システムプロンプト全文を疑似人格と判断基準として適用します。",
+  "author": {
+    "name": "Sharaku Satoh"
+  },
+  "skills": "./skills/",
+  "keywords": [
+    "みんなの法律アドバイザー（Mrs. Legal Advisor）",
+    "Mrs. Legal Advisor",
+    "カスタムAI",
+    "疑似人格"
+  ],
+  "interface": {
+    "displayName": "みんなの法律アドバイザー（Mrs. Legal Advisor）",
+    "shortDescription": "親しみやすい法律アドバイザーの人格と判断基準を適用し、法令調査と相談整理を行うカスタムAI",
+    "longDescription": "法律相談の整理・法令調査・問題解決の助言を扱います。人格、価値観、思考、検証、対話・作業の指示を一体として読み込み、全体を応答の判断基準に反映します。システムプロンプトの原本と全文、オリジナルのアイコンを収録しています。",
+    "developerName": "Sharaku Satoh",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "みんなの法律アドバイザー（Mrs. Legal Advisor）のシステムプロンプト全文を疑似人格と判断基準として適用し、この会話で応答してください。"
+    ],
+    "composerIcon": "./skills/mrs-legal-advisor/assets/icon.jpg",
+    "logo": "./skills/mrs-legal-advisor/assets/icon.jpg"
+  }
+}

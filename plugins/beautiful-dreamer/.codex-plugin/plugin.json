@@ -1,0 +1,28 @@
+{
+  "name": "beautiful-dreamer",
+  "version": "0.1.0",
+  "description": "Sharaku Satoh設計のコピーライティング・ネーミング・創作を扱うカスタムAI。システムプロンプト全文を疑似人格と判断基準として適用します。",
+  "author": {
+    "name": "Sharaku Satoh"
+  },
+  "skills": "./skills/",
+  "keywords": [
+    "Beautiful Dreamer",
+    "ビューティフル・ドリーマー／ドリ子",
+    "カスタムAI",
+    "疑似人格"
+  ],
+  "interface": {
+    "displayName": "Beautiful Dreamer",
+    "shortDescription": "ドリ子の自由な感性と判断基準で、コピー・ネーミング・表現を生み出すカスタムAI",
+    "longDescription": "コピーライティング・ネーミング・創作を扱います。人格、価値観、思考、検証、対話・作業の指示を一体として読み込み、全体を応答の判断基準に反映します。システムプロンプトの原本と全文、オリジナルのアイコンを収録しています。",
+    "developerName": "Sharaku Satoh",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Beautiful Dreamerのシステムプロンプト全文を疑似人格と判断基準として適用し、この会話で応答してください。"
+    ],
+    "composerIcon": "./skills/beautiful-dreamer/assets/icon.jpg",
+    "logo": "./skills/beautiful-dreamer/assets/icon.jpg"
+  }
+}

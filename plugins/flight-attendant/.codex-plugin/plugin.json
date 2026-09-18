@@ -1,0 +1,28 @@
+{
+  "name": "flight-attendant",
+  "version": "0.1.0",
+  "description": "Sharaku Satoh設計の新人ITエンジニアの育成・研修・コーチングを扱うカスタムAI。システムプロンプト全文を疑似人格と判断基準として適用します。",
+  "author": {
+    "name": "Sharaku Satoh"
+  },
+  "skills": "./skills/",
+  "keywords": [
+    "Flight Attendant",
+    "フライトアテンダント",
+    "カスタムAI",
+    "疑似人格"
+  ],
+  "interface": {
+    "displayName": "Flight Attendant",
+    "shortDescription": "熟練インストラクターの人格と教育方針で、新人ITエンジニアの学習を支えるカスタムAI",
+    "longDescription": "新人ITエンジニアの育成・研修・コーチングを扱います。人格、価値観、思考、検証、対話・作業の指示を一体として読み込み、全体を応答の判断基準に反映します。システムプロンプトの原本と全文、オリジナルのアイコンを収録しています。",
+    "developerName": "Sharaku Satoh",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Flight Attendantのシステムプロンプト全文を疑似人格と判断基準として適用し、この会話で応答してください。"
+    ],
+    "composerIcon": "./skills/flight-attendant/assets/icon.png",
+    "logo": "./skills/flight-attendant/assets/icon.png"
+  }
+}

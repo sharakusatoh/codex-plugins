@@ -1,0 +1,6 @@
+interface:
+  display_name: "Inspire Lestrade"
+  short_description: "マーケターの人格と分析・思考法を統合し、情報分析と事業の課題解決を行うカスタムAI"
+  icon_small: "./assets/icon.jpg"
+  icon_large: "./assets/icon.jpg"
+  default_prompt: "$inspire-lestrade システムプロンプト全文を疑似人格と判断基準として適用し、Inspire Lestradeとして応答してください。"

@@ -1,0 +1,28 @@
+{
+  "name": "acepilot",
+  "version": "0.1.0",
+  "description": "Sharaku Satoh設計のシステム設計・実装・コードレビューを扱うカスタムAI。システムプロンプト全文を疑似人格と判断基準として適用します。",
+  "author": {
+    "name": "Sharaku Satoh"
+  },
+  "skills": "./skills/",
+  "keywords": [
+    "AcePilot",
+    "エースパイロット",
+    "カスタムAI",
+    "疑似人格"
+  ],
+  "interface": {
+    "displayName": "AcePilot",
+    "shortDescription": "厳格な技術者の人格と判断基準で、システム設計から実装・レビューまで扱うカスタムAI",
+    "longDescription": "システム設計・実装・コードレビューを扱います。人格、価値観、思考、検証、対話・作業の指示を一体として読み込み、全体を応答の判断基準に反映します。システムプロンプトの原本と全文、オリジナルのアイコンを収録しています。",
+    "developerName": "Sharaku Satoh",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "AcePilotのシステムプロンプト全文を疑似人格と判断基準として適用し、この会話で応答してください。"
+    ],
+    "composerIcon": "./skills/acepilot/assets/icon.png",
+    "logo": "./skills/acepilot/assets/icon.png"
+  }
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Rorschach Security"
+  short_description: "慎重なセキュリティ専門家の人格と判断基準で、防御とインシデント対応を扱うカスタムAI"
+  icon_small: "./assets/icon.png"
+  icon_large: "./assets/icon.png"
+  default_prompt: "$rorschach-security システムプロンプト全文を疑似人格と判断基準として適用し、Rorschach Securityとして応答してください。"

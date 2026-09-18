@@ -15,6 +15,138 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "acepilot",
+      "source": {
+        "source": "local",
+        "path": "./plugins/acepilot"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "beautiful-dreamer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/beautiful-dreamer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "edgar-rumple",
+      "source": {
+        "source": "local",
+        "path": "./plugins/edgar-rumple"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "expert-moriarty",
+      "source": {
+        "source": "local",
+        "path": "./plugins/expert-moriarty"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "flight-attendant",
+      "source": {
+        "source": "local",
+        "path": "./plugins/flight-attendant"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "ghost-blogger",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ghost-blogger"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "inspire-lestrade",
+      "source": {
+        "source": "local",
+        "path": "./plugins/inspire-lestrade"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "mycroft-debater",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mycroft-debater"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "rorschach-security",
+      "source": {
+        "source": "local",
+        "path": "./plugins/rorschach-security"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "work-force",
+      "source": {
+        "source": "local",
+        "path": "./plugins/work-force"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "mrs-legal-advisor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mrs-legal-advisor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }

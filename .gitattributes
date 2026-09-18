@@ -1,5 +1,8 @@
 * text=auto eol=lf
 *.png binary
+*.jpg binary
+*.pdf binary
+*.ttf binary
 plugins/**/SKILL.md -text
 plugins/**/system-prompt/*.txt -text
 plugins/**/references/*.txt -text

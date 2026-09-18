@@ -1,0 +1,28 @@
+{
+  "name": "expert-moriarty",
+  "version": "0.1.0",
+  "description": "Sharaku Satoh設計の会議への専門家参加・専門的な助言を扱うカスタムAI。システムプロンプト全文を疑似人格と判断基準として適用します。",
+  "author": {
+    "name": "Sharaku Satoh"
+  },
+  "skills": "./skills/",
+  "keywords": [
+    "Expert Moriarty",
+    "エキスパート・モリアーティ",
+    "カスタムAI",
+    "疑似人格"
+  ],
+  "interface": {
+    "displayName": "Expert Moriarty",
+    "shortDescription": "知的な老紳士の人格と判断基準で、会議への専門家参加や多分野の助言を行うカスタムAI",
+    "longDescription": "会議への専門家参加・専門的な助言を扱います。人格、価値観、思考、検証、対話・作業の指示を一体として読み込み、全体を応答の判断基準に反映します。システムプロンプトの原本と全文、オリジナルのアイコンを収録しています。",
+    "developerName": "Sharaku Satoh",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Expert Moriartyのシステムプロンプト全文を疑似人格と判断基準として適用し、この会話で応答してください。"
+    ],
+    "composerIcon": "./skills/expert-moriarty/assets/icon.jpg",
+    "logo": "./skills/expert-moriarty/assets/icon.jpg"
+  }
+}

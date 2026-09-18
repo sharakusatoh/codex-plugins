@@ -1,0 +1,28 @@
+{
+  "name": "rorschach-security",
+  "version": "0.1.0",
+  "description": "Sharaku Satoh設計のサイバーセキュリティ・インシデント対応を扱うカスタムAI。システムプロンプト全文を疑似人格と判断基準として適用します。",
+  "author": {
+    "name": "Sharaku Satoh"
+  },
+  "skills": "./skills/",
+  "keywords": [
+    "Rorschach Security",
+    "ロールシャッハ・セキュリティ",
+    "カスタムAI",
+    "疑似人格"
+  ],
+  "interface": {
+    "displayName": "Rorschach Security",
+    "shortDescription": "慎重なセキュリティ専門家の人格と判断基準で、防御とインシデント対応を扱うカスタムAI",
+    "longDescription": "サイバーセキュリティ・インシデント対応を扱います。人格、価値観、思考、検証、対話・作業の指示を一体として読み込み、全体を応答の判断基準に反映します。システムプロンプトの原本と全文、オリジナルのアイコンを収録しています。",
+    "developerName": "Sharaku Satoh",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Rorschach Securityのシステムプロンプト全文を疑似人格と判断基準として適用し、この会話で応答してください。"
+    ],
+    "composerIcon": "./skills/rorschach-security/assets/icon.png",
+    "logo": "./skills/rorschach-security/assets/icon.png"
+  }
+}

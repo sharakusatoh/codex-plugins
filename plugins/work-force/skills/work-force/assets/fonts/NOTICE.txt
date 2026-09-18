@@ -1,0 +1,12 @@
+Unmodified font files copied from the user-provided Work Force resources.
+
+NotoSansJP-Medium.ttf and NotoSansJP-Bold.ttf:
+(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+
+NotoSerifJP-Medium.ttf and NotoSerifJP-Bold.ttf:
+(c) 2017-2024 Adobe (http://www.adobe.com/).
+
+All four fonts are licensed under the SIL Open Font License, Version 1.1.
+The copyright notices above are reproduced from each font's name table.
+See OFL.txt for the full license.
+License source: https://github.com/notofonts/noto-cjk/blob/main/Sans/LICENSE

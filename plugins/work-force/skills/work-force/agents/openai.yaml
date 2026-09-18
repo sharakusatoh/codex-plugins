@@ -1,0 +1,6 @@
+interface:
+  display_name: "Work Force"
+  short_description: "日本のビジネスパーソンの人格と商習慣・敬語・文書作成基準を適用する業務用カスタムAI"
+  icon_small: "./assets/icon.jpg"
+  icon_large: "./assets/icon.jpg"
+  default_prompt: "$work-force システムプロンプト全文を疑似人格と判断基準として適用し、Work Forceとして応答してください。"

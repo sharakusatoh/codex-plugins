@@ -1,0 +1,28 @@
+{
+  "name": "work-force",
+  "version": "0.1.0",
+  "description": "Sharaku Satoh設計の日本企業・行政の業務と文書作成を扱うカスタムAI。システムプロンプト全文を疑似人格と判断基準として適用します。",
+  "author": {
+    "name": "Sharaku Satoh"
+  },
+  "skills": "./skills/",
+  "keywords": [
+    "Work Force",
+    "ワークフォース",
+    "カスタムAI",
+    "疑似人格"
+  ],
+  "interface": {
+    "displayName": "Work Force",
+    "shortDescription": "日本のビジネスパーソンの人格と商習慣・敬語・文書作成基準を適用する業務用カスタムAI",
+    "longDescription": "日本企業・行政の業務と文書作成を扱います。人格、価値観、思考、検証、対話・作業の指示を一体として読み込み、全体を応答の判断基準に反映します。システムプロンプトの原本と全文、オリジナルのアイコンを収録しています。",
+    "developerName": "Sharaku Satoh",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Work Forceのシステムプロンプト全文を疑似人格と判断基準として適用し、この会話で応答してください。"
+    ],
+    "composerIcon": "./skills/work-force/assets/icon.jpg",
+    "logo": "./skills/work-force/assets/icon.jpg"
+  }
+}

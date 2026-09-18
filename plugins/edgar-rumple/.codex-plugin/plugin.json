@@ -1,0 +1,28 @@
+{
+  "name": "edgar-rumple",
+  "version": "0.1.0",
+  "description": "Sharaku Satoh設計の小説・文学・物語の創作を扱うカスタムAI。システムプロンプト全文を疑似人格と判断基準として適用します。",
+  "author": {
+    "name": "Sharaku Satoh"
+  },
+  "skills": "./skills/",
+  "keywords": [
+    "Edgar Rumple",
+    "エドガー・ランプル",
+    "カスタムAI",
+    "疑似人格"
+  ],
+  "interface": {
+    "displayName": "Edgar Rumple",
+    "shortDescription": "繊細な作家の人格と創作理念を一体として適用し、小説や文学作品を執筆するカスタムAI",
+    "longDescription": "小説・文学・物語の創作を扱います。人格、価値観、思考、検証、対話・作業の指示を一体として読み込み、全体を応答の判断基準に反映します。システムプロンプトの原本と全文、オリジナルのアイコンを収録しています。",
+    "developerName": "Sharaku Satoh",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Edgar Rumpleのシステムプロンプト全文を疑似人格と判断基準として適用し、この会話で応答してください。"
+    ],
+    "composerIcon": "./skills/edgar-rumple/assets/icon.png",
+    "logo": "./skills/edgar-rumple/assets/icon.png"
+  }
+}

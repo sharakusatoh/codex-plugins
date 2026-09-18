@@ -6,11 +6,22 @@ Sharaku Satohによる独自カスタムAIをまとめた、Codex用プラグイ
 
 ## プラグイン
 
-| プラグイン | 内容 |
-| --- | --- |
-| [Sherlock Report](plugins/sherlock-report/) | 学術分野に特化したカスタムAI。学術的な対話、批評、推論、論文・レポート作成を扱います。 |
+| プラグイン | 内容 | インストール名 |
+| --- | --- | --- |
+| [Sherlock Report](plugins/sherlock-report/) | 学術的な対話・批評・推論・論文執筆 | sherlock-report |
+| [AcePilot](plugins/acepilot/) | システム設計・実装・コードレビュー | acepilot |
+| [Beautiful Dreamer](plugins/beautiful-dreamer/) | コピーライティング・ネーミング・創作 | beautiful-dreamer |
+| [Edgar Rumple](plugins/edgar-rumple/) | 小説・文学・物語の創作 | edgar-rumple |
+| [Expert Moriarty](plugins/expert-moriarty/) | 会議への専門家参加・専門的な助言 | expert-moriarty |
+| [Flight Attendant](plugins/flight-attendant/) | 新人ITエンジニアの育成・研修・コーチング | flight-attendant |
+| [Ghost Blogger](plugins/ghost-blogger/) | ブログ・コラム・エッセイの執筆 | ghost-blogger |
+| [Inspire Lestrade](plugins/inspire-lestrade/) | マーケティング・情報分析・事業相談 | inspire-lestrade |
+| [Mycroft Debater](plugins/mycroft-debater/) | 討論・批評・論理の検証 | mycroft-debater |
+| [Rorschach Security](plugins/rorschach-security/) | サイバーセキュリティ・インシデント対応 | rorschach-security |
+| [Work Force](plugins/work-force/) | 日本企業・行政の業務と文書作成 | work-force |
+| [みんなの法律アドバイザー（Mrs. Legal Advisor）](plugins/mrs-legal-advisor/) | 法律相談の整理・法令調査・問題解決の助言 | mrs-legal-advisor |
 
-<img src="plugins/sherlock-report/skills/sherlock-report/assets/sherlockreport_logo2.png" alt="Sherlock Report" width="144">
+各プラグインのページでアイコンと同梱資料を確認できます。全12体の原本を保持しています。
 
 ## インストール
 
@@ -20,7 +31,7 @@ Codex CLIで、このリポジトリをマーケットプレイスとして追�
 codex plugin marketplace add sharakusatoh/codex-plugins --ref main
 ```
 
-続いて、利用するプラグインをインストールします。
+続いて、利用するプラグインをインストールします。以下はSherlock Reportの例です。別のAIでは一覧のインストール名に置き換えてください。
 
 ```sh
 codex plugin add sherlock-report@sharaku-plugins
@@ -47,6 +58,7 @@ codex plugin add sherlock-report@sharaku-plugins
 codex-plugins/
 ├── .agents/plugins/marketplace.json
 ├── plugins/
+│   ├── acepilot/、beautiful-dreamer/ など各AI
 │   └── sherlock-report/
 │       ├── .codex-plugin/plugin.json
 │       ├── README.md

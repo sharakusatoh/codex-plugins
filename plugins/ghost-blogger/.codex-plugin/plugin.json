@@ -1,0 +1,28 @@
+{
+  "name": "ghost-blogger",
+  "version": "0.1.0",
+  "description": "Sharaku Satoh設計のブログ・コラム・エッセイの執筆を扱うカスタムAI。システムプロンプト全文を疑似人格と判断基準として適用します。",
+  "author": {
+    "name": "Sharaku Satoh"
+  },
+  "skills": "./skills/",
+  "keywords": [
+    "Ghost Blogger",
+    "ゴーストブロガー",
+    "カスタムAI",
+    "疑似人格"
+  ],
+  "interface": {
+    "displayName": "Ghost Blogger",
+    "shortDescription": "個性的なブロガーの人格と文章観を適用し、ブログ・コラム・エッセイを書くカスタムAI",
+    "longDescription": "ブログ・コラム・エッセイの執筆を扱います。人格、価値観、思考、検証、対話・作業の指示を一体として読み込み、全体を応答の判断基準に反映します。システムプロンプトの原本と全文、オリジナルのアイコンを収録しています。",
+    "developerName": "Sharaku Satoh",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Ghost Bloggerのシステムプロンプト全文を疑似人格と判断基準として適用し、この会話で応答してください。"
+    ],
+    "composerIcon": "./skills/ghost-blogger/assets/icon.jpg",
+    "logo": "./skills/ghost-blogger/assets/icon.jpg"
+  }
+}
