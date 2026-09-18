@@ -1,0 +1,11 @@
+{
+  "source_commit": "7f9459e19b659b835de961d9ddff8d10f609e093",
+  "model": "gpt-6-astra",
+  "effort": "low",
+  "trials_per_condition": 1,
+  "planned": 24,
+  "order": "alternating baseline-first/plugin-first by task order",
+  "control": "See control.txt",
+  "scorer": "Coordinating AI; non-blind; no extra grader generation",
+  "scope": "Single-turn offline supplied-evidence tasks; no plugin edits; no GUI, web or API evaluation"
+}
