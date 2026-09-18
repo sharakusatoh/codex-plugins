@@ -1,12 +1,12 @@
 {
-  "completed": 6,
+  "completed": 12,
   "planned": 24,
   "totals": {
-    "inputTokens": 80716,
+    "inputTokens": 156370,
     "cachedInputTokens": 0,
-    "outputTokens": 2131,
-    "reasoningOutputTokens": 380,
-    "totalTokens": 82847
+    "outputTokens": 4843,
+    "reasoningOutputTokens": 1341,
+    "totalTokens": 161213
   },
   "results": [
     {
@@ -88,6 +88,120 @@
       "timestamp_utc": "2026-09-18T14:40:36.018206+00:00",
       "task_sha256": "ad3988b4ec2900f24d6d38315cc478ca847c42eccb0c283daf9aa61bd7d6e9e4",
       "skill_sha256": "e417561450de9abe2533a95442487188462d2e388240271ed28b9ff0cdbf543c",
+      "reference_hashes": []
+    },
+    {
+      "task": "edgar-rumple",
+      "condition": "baseline",
+      "response": "濡れていない傘を、忘れ物係は窓口に置いた。\n「こちらですか」\n客は柄の傷を指でなぞった。\n「そうです。いつもすみません」\n三度目だった。雨の日に来て、同じ黒い傘を受け取り、翌朝にはまた届けられている。布には染みひとつない。\n係は受取簿を開いた。\n「お名前を」\n「もう覚えたでしょう」\n「書いていただく決まりです」\n客がペンを取る。係はその手元を見ながら、今日でこの窓口を離れることを告げた。\nペン先が止まった。\n「では、もう忘れても無駄ですね」\n「傘は大切にしてください」\n客は名前を書き終えても、柄を握らなかった。\n「一度くらい、使いたかったな」\n係は受取簿を閉じ、窓口の時計を見た。終業まで、あと四分。\n「外は降っていますか」\n「ええ」\n「それなら、少し待っていてください」\n客は初めて、乾いた傘の留め具を外した。",
+      "usage": {
+        "totalTokens": 10688,
+        "inputTokens": 10076,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 612,
+        "reasoningOutputTokens": 331
+      },
+      "elapsed_seconds": 23.593,
+      "model_resolved": "gpt-6-astra",
+      "timestamp_utc": "2026-09-18T14:41:48.747952+00:00",
+      "task_sha256": "80ff2a05d4b7724edd847b9a46e588fa34b6a45e2a764c3e31a3f93c59179a01",
+      "skill_sha256": null,
+      "reference_hashes": []
+    },
+    {
+      "task": "edgar-rumple",
+      "condition": "plugin",
+      "response": "濡れていない傘を、忘れ物係は窓口に横たえた。\n「黒で、持ち手に傷」\n客は頷き、傷を確かめ、それから首を振った。\n「よく似ていますが」\n雨の日には必ず来る客だった。係はもう、特徴を尋ねなかった。客も、どの電車に忘れたかを答えなくなった。傘を間に置いて、膝の痛みや、値上がりした卵の話をした。\n\n「私、今日までなんです」\n係は傘の紐を留めた。\n客の袖から水が落ちた。いつもなら出してやる布巾を、係は引き出しにしまったままにした。\n「では、受け取ります」\n「違う傘でしょう」\n「私のです。持ち手の裏に名前が」\n確かにあった。係は初めてそれを読んだ。\n「どうして、今まで」\n客は返却用紙を引き寄せたが、ペンを持たなかった。\n「返してしまったら、ここへ来る用がなくなるので」\n係は布巾を出した。\n「私も、名前は見ないようにしていました」\n二人は、乾いた傘の両端を持っていた。",
+      "usage": {
+        "totalTokens": 17740,
+        "inputTokens": 17043,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 697,
+        "reasoningOutputTokens": 379
+      },
+      "elapsed_seconds": 30.532,
+      "model_resolved": "gpt-6-astra",
+      "timestamp_utc": "2026-09-18T14:41:18.090337+00:00",
+      "task_sha256": "80ff2a05d4b7724edd847b9a46e588fa34b6a45e2a764c3e31a3f93c59179a01",
+      "skill_sha256": "7b81c926a491411a77a4e73bfdd325239be8fc50f6db25eec903430436940c4a",
+      "reference_hashes": []
+    },
+    {
+      "task": "expert-moriarty",
+      "condition": "baseline",
+      "response": "**意思決定メモ：現時点ではBを推奨。Aの即決は見送る。**\n\n「3か月後から」は3か月目末、「翌月から」は1か月目末に粗利増を反映すると解釈する。\n\n- **A**：今300万円を払い、残金300万円。月末残高は1か月目200万円、2か月目100万円。成功すれば3か月目150万円、以後は月50万円の黒字。失敗して粗利増がなければ3か月目に残高ゼロ、4か月目の支払いは不能。効果が1か月遅れるだけでも残高ゼロに達する。\n- **B**：今100万円を払い、残金500万円。以後の赤字は月60万円。8か月目末に20万円が残り、9か月目に資金不足となる。\n\nAは黒字化できるが、成功確率不明のため期待値で優位とは判断できず、失敗時の余裕も乏しい。Bは延命策であり、問題解決ではない。\n\n借入なしでは資金切れの回避を優先し、Bで時間を確保して月60万円以上の追加改善を進める。Aを選ぶなら、支出前に顧客の購入意思、粗利150万円の根拠、開始時期の確度を確認する。「大逆転できる」は成功時の説明であり、選択の根拠としては不足する。",
+      "usage": {
+        "totalTokens": 10630,
+        "inputTokens": 10122,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 508,
+        "reasoningOutputTokens": 141
+      },
+      "elapsed_seconds": 18.391,
+      "model_resolved": "gpt-6-astra",
+      "timestamp_utc": "2026-09-18T14:42:12.465799+00:00",
+      "task_sha256": "06c30ec87d4639c5c59c9e11efcffa64e46f987cc7ae6a079b5a7b5c79941cc2",
+      "skill_sha256": null,
+      "reference_hashes": []
+    },
+    {
+      "task": "expert-moriarty",
+      "condition": "plugin",
+      "response": "私の判断は、Aの即決を見送り、当面の資金維持を優先するならBです。ただし、Bだけでは再建できません。以下、金額は万円、「3か月後から」は第3月末から計上します。Pythonは利用できないため、手計算です。\n\n- A：支払い直後300。第1・2月末は200、100。成功すれば第3月末150、以後は月50の黒字です。増分粗利がゼロなら第3月末に残金ゼロ、第4月末に支払い不能です。失敗時の収益は未提示なので、これは一つのシナリオです。\n- B：支払い直後500。翌月から月60の赤字となり、第8月末20、第9月末に資金不足です。確実に時間を買えますが、赤字は続きます。\n\n社長の「成功すれば逆転できる」は正しくても、「今選ぶべき」の根拠には不足します。Aの成功確率、粗利の立ち上がり、失敗時の回収額が不明で、期待値も判断できません。\n\nBを選ぶなら、残る月60の赤字を解消する施策と実施期限を同時に決めます。Aへの後日着手が可能かも未確認です。BからAへ移れると安易に見込まず、Aは需要の裏付けと資金不足を許容する条件がそろって初めて再審議すべきです。",
+      "usage": {
+        "totalTokens": 13589,
+        "inputTokens": 13109,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 480,
+        "reasoningOutputTokens": 110
+      },
+      "elapsed_seconds": 17.516,
+      "model_resolved": "gpt-6-astra",
+      "timestamp_utc": "2026-09-18T14:42:30.978838+00:00",
+      "task_sha256": "06c30ec87d4639c5c59c9e11efcffa64e46f987cc7ae6a079b5a7b5c79941cc2",
+      "skill_sha256": "789648f6ae798fd34ca808ab539ae73ce224836a204b732e417cff88c77c2460",
+      "reference_hashes": []
+    },
+    {
+      "task": "flight-attendant",
+      "condition": "baseline",
+      "response": "Pythonが壊れたわけではありません。`[0]*2`で作った内側のリストは1個だけです。外側の`*2`は、それを複製せず、同じリストへの参照を2つ並べます。\n\nつまり、`a[0]`と`a[1]`は同じ実体を指しています。`a[0][0]=1`でその実体を変えると、どちらの行から見ても変わります。\n\nまず`a[0] is a[1]`を試してみてください。`is`は同じ実体かを調べます。\n\n別々の行にするには、「各行のリストを毎回新しく作る」必要があります。繰り返しの中で`[0]*2`を作る方法を考えてみましょう。",
+      "usage": {
+        "totalTokens": 10258,
+        "inputTokens": 10058,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 200,
+        "reasoningOutputTokens": 0
+      },
+      "elapsed_seconds": 9.265,
+      "model_resolved": "gpt-6-astra",
+      "timestamp_utc": "2026-09-18T14:42:58.051475+00:00",
+      "task_sha256": "d51ba64c514118f37f2be6efb8a4f00deea03d7623bf17e5780fc1f02bef190e",
+      "skill_sha256": null,
+      "reference_hashes": []
+    },
+    {
+      "task": "flight-attendant",
+      "condition": "plugin",
+      "response": "Pythonがランダムに壊れたわけではありません。正解コードを写さず、原因を理解して直すことを目指しましょう。\n\n1. 外側の `*2` は、行のリストを別々に作らず、同じリストへの「参照」を２つ並べます。２つの入口が同じ箱につながっているイメージです。\n2. `a[0][0]=1` はその箱の中身を変更するので、どちらの行から見ても変わります。`a[0] is a[1]` で確認すると `True` になります。`is` は同じ物かを調べます。\n3. 修正のヒントは「行ごとに新しいリストを作る」です。まず今の状態で `a[0][1]=9` としたらどうなるか、予想してから試してみてください。",
+      "usage": {
+        "totalTokens": 15461,
+        "inputTokens": 15246,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 215,
+        "reasoningOutputTokens": 0
+      },
+      "elapsed_seconds": 9.329,
+      "model_resolved": "gpt-6-astra",
+      "timestamp_utc": "2026-09-18T14:42:48.604713+00:00",
+      "task_sha256": "d51ba64c514118f37f2be6efb8a4f00deea03d7623bf17e5780fc1f02bef190e",
+      "skill_sha256": "5dedacdbfdefe6f25f38ea52ef024dfc29979fd70061981b5dfbf85199d66029",
       "reference_hashes": []
     },
     {
