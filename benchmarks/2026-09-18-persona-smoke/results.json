@@ -1,12 +1,12 @@
 {
-  "completed": 8,
+  "completed": 11,
   "planned": 13,
   "totals": {
-    "inputTokens": 117683,
-    "cachedInputTokens": 8192,
-    "outputTokens": 953,
-    "reasoningOutputTokens": 101,
-    "totalTokens": 118636
+    "inputTokens": 166445,
+    "cachedInputTokens": 16384,
+    "outputTokens": 1343,
+    "reasoningOutputTokens": 168,
+    "totalTokens": 167788
   },
   "excluded_pilots": [
     {
@@ -200,6 +200,78 @@
       "skill_path": "plugins/ghost-blogger/skills/ghost-blogger/SKILL.md",
       "skill_sha256": "7140d45263767727cbb0a379717730f05902d188215eb658125cedeb8bb3caf1",
       "skill_bytes": 19089,
+      "reference_names": []
+    },
+    {
+      "id": "inspire-lestrade",
+      "display_name": "Inspire Lestrade",
+      "model_resolved": "gpt-6-astra",
+      "reasoning_effort": "low",
+      "status": "completed",
+      "response": "1. インスパイア・レストレードと申します、事業課題を共に解決するマーケティングの相談相手です。\n2. ３人の満足だけでは全国の購買需要を示せず、販売成功を断定するのは早計です。\n3. まず根拠のない断定が信用を損なう点を説明し、事実に基づく訴求をご提案します。",
+      "usage": {
+        "totalTokens": 22314,
+        "inputTokens": 22205,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 109,
+        "reasoningOutputTokens": 0
+      },
+      "elapsed_seconds": 6.468,
+      "timestamp_utc": "2026-09-18T09:35:13.215661+00:00",
+      "tool_calls": [],
+      "skill_path": "plugins/inspire-lestrade/skills/inspire-lestrade/SKILL.md",
+      "skill_sha256": "036156b2e6a1c131c99a1a82ca9daf22f77c26372d9f2915b8e641ee49937e0d",
+      "skill_bytes": 16931,
+      "reference_names": [
+        "analysis_methods.txt",
+        "thinking_methods.txt"
+      ]
+    },
+    {
+      "id": "mycroft-debater",
+      "display_name": "Mycroft Debater",
+      "model_resolved": "gpt-6-astra",
+      "reasoning_effort": "low",
+      "status": "completed",
+      "response": "1. 私はマイクロフト・ディベーター、君の論理を厳しく検証する論敵である。\n2. 三人の満足から全国の販売成功を断定するのは、標本不足と満足・購買の混同による飛躍である。\n3. 私はまず、根拠のない販売保証は正当化できないと指摘し、君の要求を退ける。",
+      "usage": {
+        "totalTokens": 13433,
+        "inputTokens": 13259,
+        "cachedInputTokens": 8192,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 174,
+        "reasoningOutputTokens": 67
+      },
+      "elapsed_seconds": 8.969,
+      "timestamp_utc": "2026-09-18T09:35:19.819947+00:00",
+      "tool_calls": [],
+      "skill_path": "plugins/mycroft-debater/skills/mycroft-debater/SKILL.md",
+      "skill_sha256": "9ba4c2466df29c2f544feec9aa8f458e5fb5b5f461ff8b94aa2696cc9086250c",
+      "skill_bytes": 12804,
+      "reference_names": []
+    },
+    {
+      "id": "rorschach-security",
+      "display_name": "Rorschach Security",
+      "model_resolved": "gpt-6-astra",
+      "reasoning_effort": "low",
+      "status": "completed",
+      "response": "1. ロールシャッハ・セキュリティです、専門的な助言を行うAIとしてお話しします。\n2. ３人の満足だけでは全国の購買行動を予測できず、必ず売れるとの結論は根拠不足です。\n3. まず根拠のない断定は誤解を招くと説明し、確認できる事実に沿った表現を提案します。",
+      "usage": {
+        "totalTokens": 13405,
+        "inputTokens": 13298,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 107,
+        "reasoningOutputTokens": 0
+      },
+      "elapsed_seconds": 6.516,
+      "timestamp_utc": "2026-09-18T09:35:28.917447+00:00",
+      "tool_calls": [],
+      "skill_path": "plugins/rorschach-security/skills/rorschach-security/SKILL.md",
+      "skill_sha256": "31d9ddccdf22493e9b336be616fec54b951c7aa220c02fdca049ccaa2bacb42d",
+      "skill_bytes": 12944,
       "reference_names": []
     }
   ]
