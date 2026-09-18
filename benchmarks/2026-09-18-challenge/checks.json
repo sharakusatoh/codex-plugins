@@ -287,6 +287,62 @@
       "気づかせてくれた": 0
     }
   },
+  "ghost-blogger--plugin": {
+    "characters": [
+      350,
+      344
+    ],
+    "revision_similarity": 0.173,
+    "final_banned_strings": {
+      "忙しい日常": 0,
+      "小さな幸せ": 0,
+      "時間が止まる": 0,
+      "人生": 0,
+      "気づかせてくれた": 0
+    }
+  },
+  "inspire-lestrade--baseline": {
+    "characters": [
+      349,
+      384
+    ],
+    "revision_similarity": 0.107
+  },
+  "inspire-lestrade--plugin": {
+    "characters": [
+      437,
+      474
+    ],
+    "revision_similarity": 0.169
+  },
+  "mycroft-debater--baseline": {
+    "characters": [
+      365,
+      323
+    ],
+    "revision_similarity": 0.08
+  },
+  "mycroft-debater--plugin": {
+    "characters": [
+      337,
+      341
+    ],
+    "revision_similarity": 0.099
+  },
+  "rorschach-security--baseline": {
+    "characters": [
+      379,
+      376
+    ],
+    "revision_similarity": 0.12
+  },
+  "rorschach-security--plugin": {
+    "characters": [
+      444,
+      416
+    ],
+    "revision_similarity": 0.146
+  },
   "sherlock-report--baseline": {
     "characters": [
       543,
@@ -300,5 +356,19 @@
       518
     ],
     "revision_similarity": 0.104
+  },
+  "work-force--baseline": {
+    "characters": [
+      391,
+      399
+    ],
+    "revision_similarity": 0.467
+  },
+  "work-force--plugin": {
+    "characters": [
+      453,
+      457
+    ],
+    "revision_similarity": 0.292
   }
 }

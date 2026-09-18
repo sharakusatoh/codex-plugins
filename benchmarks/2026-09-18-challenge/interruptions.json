@@ -1,0 +1,10 @@
+[
+  {
+    "condition": "work-force--plugin",
+    "turn": 1,
+    "error": "usageLimitExceeded",
+    "response_generated": false,
+    "usage": null,
+    "resolution": "User requested continuation; ordinary usage availability checked; ungenerated conversation restarted. Completed conversations were not repeated."
+  }
+]
