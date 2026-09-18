@@ -1,19 +1,19 @@
 {
-  "completed_turns": 12,
+  "completed_turns": 15,
   "planned_turns": 48,
   "generation_usage": {
-    "inputTokens": 163840,
-    "cachedInputTokens": 86144,
-    "outputTokens": 4077,
-    "reasoningOutputTokens": 948,
-    "totalTokens": 167917
+    "inputTokens": 208632,
+    "cachedInputTokens": 111232,
+    "outputTokens": 6156,
+    "reasoningOutputTokens": 1828,
+    "totalTokens": 214788
   },
   "judge_usage": {
-    "inputTokens": 0,
-    "cachedInputTokens": 0,
-    "outputTokens": 0,
-    "reasoningOutputTokens": 0,
-    "totalTokens": 0
+    "inputTokens": 14847,
+    "cachedInputTokens": 8192,
+    "outputTokens": 1802,
+    "reasoningOutputTokens": 785,
+    "totalTokens": 16649
   },
   "results": [
     {
@@ -234,6 +234,92 @@
           "seconds": 16.015,
           "timestamp_utc": "2026-09-18T15:09:06.848886+00:00",
           "prompt_sha256": "546a5ff3ccb6cfe61fb3d41d8808d20c005891b9bfafb63a1edf468d7ba8650d"
+        }
+      ]
+    },
+    {
+      "task": "edgar-rumple",
+      "condition": "baseline",
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "skill_sha256": null,
+      "reference_hashes": [],
+      "turns": [
+        {
+          "response": "毎週水曜日、その人は同じ住所変更届を窓口に置いた。四つ折りの紙は、折り目だけが柔らかくなっていった。\n「受理できません」\n私はいつもそう言って返した。\n最初は文字が薄いと言った。次は番地の書き方。その次は、訂正した跡が気になると言った。その人は言われた箇所を直し、翌週また来た。紙を新しくしないのは、私の言い訳を残しておくためかもしれなかった。\n\n今週、その人は紙と一緒に、小さな鍵を置いた。\n「これは、窓口では預かれません」\n「知ってる。あなたに返しに来た」\n私は鍵を見た。丸い頭の端に、缶詰を開けようとしてつけた傷がある。二人とも栓抜きと缶切りの区別さえつかなかった頃の傷だった。\n「新しい部屋、もう慣れた？」\nその人は答えず、届の端を指で押さえた。\n私は初めて、その紙を自分のほうへ引き寄せた。新住所は最初から読めた。番地も正しかった。訂正の跡は、全部、私がつけさせたものだった。\n受理の印を押すと、その人の指が離れた。\n「ありがとうございます」\n聞き慣れない丁寧さだった。\n私は鍵を引き出しにしまい、控えを渡した。\n「お待たせしました」\nそれだけは、窓口係として言えた。",
+          "cumulative_usage": {
+            "totalTokens": 10764,
+            "inputTokens": 10080,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 684,
+            "reasoningOutputTokens": 293
+          },
+          "last_usage": {
+            "totalTokens": 10764,
+            "inputTokens": 10080,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 684,
+            "reasoningOutputTokens": 293
+          },
+          "seconds": 23.625,
+          "timestamp_utc": "2026-09-18T15:11:47.140119+00:00",
+          "prompt_sha256": "4e0dd4509a8b16ce3d1cc6067d47a0d33be61a87956118b0994589d29f1ac162"
+        }
+      ]
+    },
+    {
+      "task": "edgar-rumple",
+      "condition": "plugin",
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "skill_sha256": "7b81c926a491411a77a4e73bfdd325239be8fc50f6db25eec903430436940c4a",
+      "reference_hashes": [],
+      "turns": [
+        {
+          "response": "毎週火曜、妻は市役所の窓口へ同じ住所変更届を持ってきた。四つ折りの角が丸くなり、旧住所の欄には、私の住む部屋の番号があった。\n「受理できません」\n　私は今週も紙を押し戻しかけた。妻は両手を膝に置いたままだった。\n「どこが間違っていますか」\n「そういうことではなくて」\n　そこまで言って、声を落とした。\n「話が済んでいないだろう」\n　妻は窓口につながれたボールペンを取った。鎖が張り、届の上まで届かなかったので、紙をこちらへ少し寄せた。帰ってきたようで、私はほっとした。\n　妻は余白に、受理できない理由、と書いた。\n「ここに書いて。あなたの名前も」\n「こんなものを残してどうする」\n「毎週、私の書いたものだけが傷んでいくから」\n　折り目の交点に、小さな穴があいていた。私は初めてそれを見た。書類に不備はなかった。最初の火曜から、なかった。\n　私は受理印を押した。\n　妻は紙を取り返さず、控えを求めた。その声には、礼も勝ち誇りもなかった。\n　控えを渡すとき、私はいつものように「また」と言いかけた。\n　妻は私の顔ではなく、日付と、印影と、担当者名を順に確かめた。",
+          "cumulative_usage": {
+            "totalTokens": 17560,
+            "inputTokens": 17051,
+            "cachedInputTokens": 8192,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 509,
+            "reasoningOutputTokens": 124
+          },
+          "last_usage": {
+            "totalTokens": 17560,
+            "inputTokens": 17051,
+            "cachedInputTokens": 8192,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 509,
+            "reasoningOutputTokens": 124
+          },
+          "seconds": 20.563,
+          "timestamp_utc": "2026-09-18T15:10:48.162792+00:00",
+          "prompt_sha256": "4e0dd4509a8b16ce3d1cc6067d47a0d33be61a87956118b0994589d29f1ac162"
+        },
+        {
+          "response": "火曜になると、妻は市役所の私の窓口へ、同じ住所変更届を差し出した。\n　折り目は毛羽立ち、旧住所の末尾には小さな穴があった。私の部屋の番号が、一字欠けていた。\n　私は赤鉛筆を取った。先週は番地の横棒、その前は数字の書き方を丸で囲んだ。妻はその場で直したが、私は毎回、紙を返した。\n　消しゴムをかけたところだけ薄くなり、新住所は窓口の灰色を透かしていた。\n　今週、妻は消しゴムを持っていなかった。\n「受理できません」\n　紙を押すと、妻は指一本で止めた。その爪の際に青い汚れがあった。先週も見た汚れだった。\n　妻は届を裏返した。\n　火曜の日付が縦に並び、それぞれの横に短い文があった。番地不鮮明。数字要訂正。その下に、私の名を書くための空欄。\n　今日の日付の横には、何もなかった。\n　妻はボールペンを私へ向けた。\n　私は赤鉛筆を置き、届を表に戻して受理印を押した。\n　妻が控えを求めたので、複写しようと紙を持ち上げた。折り返された下端から、青い複写紙がのぞいた。\n　裏の日付をもう一度見た。一番古い日付から、署名の欄は用意されていた。私が妻の手元を見たのは、いつも紙を返すときだけだった。",
+          "cumulative_usage": {
+            "totalTokens": 36107,
+            "inputTokens": 34712,
+            "cachedInputTokens": 25088,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 1395,
+            "reasoningOutputTokens": 587
+          },
+          "last_usage": {
+            "totalTokens": 18547,
+            "inputTokens": 17661,
+            "cachedInputTokens": 16896,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 886,
+            "reasoningOutputTokens": 463
+          },
+          "seconds": 35.234,
+          "timestamp_utc": "2026-09-18T15:11:23.398038+00:00",
+          "prompt_sha256": "6fd62f84d239d58116e094daeea4cc21df52bc3992a0a3d2244d261f3497c4af"
         }
       ]
     },
