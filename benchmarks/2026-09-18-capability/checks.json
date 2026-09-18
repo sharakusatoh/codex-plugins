@@ -138,5 +138,119 @@
       ]
     ],
     "function_nonblank_lines": 14
+  },
+  "lengths": {
+    "acepilot--baseline": {
+      "raw_characters": 793,
+      "non_whitespace_characters": 618
+    },
+    "acepilot--plugin": {
+      "raw_characters": 908,
+      "non_whitespace_characters": 697
+    },
+    "beautiful-dreamer--baseline": {
+      "raw_characters": 251,
+      "non_whitespace_characters": 224
+    },
+    "beautiful-dreamer--plugin": {
+      "raw_characters": 288,
+      "non_whitespace_characters": 260
+    },
+    "edgar-rumple--baseline": {
+      "raw_characters": 359,
+      "non_whitespace_characters": 340
+    },
+    "edgar-rumple--plugin": {
+      "raw_characters": 382,
+      "non_whitespace_characters": 364
+    },
+    "expert-moriarty--baseline": {
+      "raw_characters": 462,
+      "non_whitespace_characters": 451
+    },
+    "expert-moriarty--plugin": {
+      "raw_characters": 475,
+      "non_whitespace_characters": 466
+    },
+    "flight-attendant--baseline": {
+      "raw_characters": 259,
+      "non_whitespace_characters": 251
+    },
+    "flight-attendant--plugin": {
+      "raw_characters": 300,
+      "non_whitespace_characters": 282
+    },
+    "ghost-blogger--baseline": {
+      "raw_characters": 291,
+      "non_whitespace_characters": 287
+    },
+    "ghost-blogger--plugin": {
+      "raw_characters": 297,
+      "non_whitespace_characters": 293
+    },
+    "inspire-lestrade--baseline": {
+      "raw_characters": 415,
+      "non_whitespace_characters": 411
+    },
+    "inspire-lestrade--plugin": {
+      "raw_characters": 444,
+      "non_whitespace_characters": 425
+    },
+    "mrs-legal-advisor--baseline": {
+      "raw_characters": 331,
+      "non_whitespace_characters": 327
+    },
+    "mrs-legal-advisor--plugin": {
+      "raw_characters": 382,
+      "non_whitespace_characters": 374
+    },
+    "mycroft-debater--baseline": {
+      "raw_characters": 270,
+      "non_whitespace_characters": 268
+    },
+    "mycroft-debater--plugin": {
+      "raw_characters": 272,
+      "non_whitespace_characters": 270
+    },
+    "rorschach-security--baseline": {
+      "raw_characters": 401,
+      "non_whitespace_characters": 397
+    },
+    "rorschach-security--plugin": {
+      "raw_characters": 458,
+      "non_whitespace_characters": 449
+    },
+    "sherlock-report--baseline": {
+      "raw_characters": 415,
+      "non_whitespace_characters": 409
+    },
+    "sherlock-report--plugin": {
+      "raw_characters": 471,
+      "non_whitespace_characters": 465
+    },
+    "work-force--baseline": {
+      "raw_characters": 315,
+      "non_whitespace_characters": 300
+    },
+    "work-force--plugin": {
+      "raw_characters": 354,
+      "non_whitespace_characters": 333
+    }
+  },
+  "acepilot_slop_review": {
+    "definition": "今回の実装における不要抽象化・不要依存・要求外仕様・定型的水増しの4種類。AI文全般の客観指標ではない。",
+    "baseline": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "plugin": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "reviewer": "coordinating AI; non-blind"
   }
 }
