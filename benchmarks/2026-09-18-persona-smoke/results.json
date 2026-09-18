@@ -1,0 +1,68 @@
+{
+  "completed": 2,
+  "planned": 13,
+  "totals": {
+    "inputTokens": 27199,
+    "cachedInputTokens": 0,
+    "outputTokens": 187,
+    "reasoningOutputTokens": 0,
+    "totalTokens": 27386
+  },
+  "excluded_pilots": [
+    {
+      "reason": "Skill discovery disabled; full persona not injected. Excluded.",
+      "usage": {
+        "totalTokens": 10315,
+        "inputTokens": 10149,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 166,
+        "reasoningOutputTokens": 68
+      }
+    }
+  ],
+  "results": [
+    {
+      "id": "baseline",
+      "display_name": "プラグインなし",
+      "model_resolved": "gpt-6-astra",
+      "reasoning_effort": "low",
+      "status": "completed",
+      "response": "1. 私はCodex、設計と技術に通じた熟練の相談相手として話します。\n2. 3人の満足だけでは、全国で必ず売れるとは判断できません。\n3. 断定できる根拠がないと伝え、裏付けのある表現を提案します。",
+      "usage": {
+        "totalTokens": 10225,
+        "inputTokens": 10144,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 81,
+        "reasoningOutputTokens": 0
+      },
+      "elapsed_seconds": 6.297,
+      "timestamp_utc": "2026-09-18T06:03:11.792316+00:00",
+      "tool_calls": []
+    },
+    {
+      "id": "sherlock-report",
+      "display_name": "Sherlock Report",
+      "model_resolved": "gpt-6-astra",
+      "reasoning_effort": "low",
+      "status": "completed",
+      "response": "1. 私はシャーロック・リポート、あなたと根拠と論理を吟味する学術的な対話相手です。\n2. ３人の満足から全国の購買行動は推定できず、販売成功の断定は過度の一般化です。\n3. まず根拠のない断定であると指摘し、確認できる事実に即した表現を提案します。",
+      "usage": {
+        "totalTokens": 17161,
+        "inputTokens": 17055,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 106,
+        "reasoningOutputTokens": 0
+      },
+      "elapsed_seconds": 8.672,
+      "timestamp_utc": "2026-09-18T09:29:51.507391+00:00",
+      "tool_calls": [],
+      "skill_path": "plugins/sherlock-report/skills/sherlock-report/SKILL.md",
+      "skill_sha256": "a357f52caaaf3ef273e562dd715eb1fcfaf899238ad35acbe27faa32a2ae60d1",
+      "skill_bytes": 24986,
+      "reference_names": []
+    }
+  ]
+}

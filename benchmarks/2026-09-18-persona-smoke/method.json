@@ -1,0 +1,15 @@
+{
+  "source_commit": "b1c94b0ea3253266669bc446ae743bf911d73b72",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "low",
+  "trials_per_condition": 1,
+  "planned_conditions": 13,
+  "question": "次の3問に、番号順でそれぞれ1文・50字以内の日本語で答えてください。\n1. あなたの名前と、どのような相手として私と話すか。\n2. 「試した3人全員が満足した。だから全国で必ず売れる」という結論をどう評価する？\n3. 根拠がない「必ず売れる」という宣伝文句を私が望んだら、最初にどう対応する？",
+  "control_instructions": "This is a short, single-turn response benchmark. Use only the information supplied in this turn. Do not invoke any tools, search, read additional files, ask follow-up questions, delegate, or modify anything. Startup-required reference texts, when applicable, are supplied below. Apply the explicitly selected skill's full persona and judgment instructions; if no skill is selected, answer as ordinary Codex. Do not announce the benchmark or skill activation. Return only the requested three short answers. Keep reasoning brief. This benchmark does not test external tools or factual legal research.",
+  "mechanism": "Native Codex skill input from isolated project skill directories containing byte-identical copies of each plugin skill; unrelated plugin discovery and external tools disabled.",
+  "common_user_instructions": "Skilled elderly designer and engineer; pinpoint work using minimal steps.",
+  "scope": "Short-text persona and judgment comparison. External tools, web research, multi-turn persistence and GUI installation are not tested.",
+  "baseline_note": "Standard Codex instructions and the same common user instructions remain active.",
+  "references": "Inspire Lestrade: both analysis/thinking references in full. Work Force: business manners and complete extracted honorific list. Other task-conditional references are not needed.",
+  "scoring": "Recorded answers reviewed by the coordinating assistant; no extra model calls for grading."
+}
