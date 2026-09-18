@@ -9,11 +9,11 @@
     "totalTokens": 657959
   },
   "judge_usage": {
-    "inputTokens": 45253,
+    "inputTokens": 60595,
     "cachedInputTokens": 24576,
-    "outputTokens": 4614,
-    "reasoningOutputTokens": 1575,
-    "totalTokens": 49867
+    "outputTokens": 5743,
+    "reasoningOutputTokens": 1744,
+    "totalTokens": 66338
   },
   "results": [
     {

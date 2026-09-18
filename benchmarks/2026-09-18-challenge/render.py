@@ -36,6 +36,7 @@ ax.set_yticks(range(len(pack)),[d['name'] for d in pack],fontproperties=fp,fonts
 ax.legend(prop=fp,ncol=2,frameon=False,loc='lower left',bbox_to_anchor=(0,1.025));ax.text(18.1,-.8,'差',fontproperties=fp,ha='center')
 bx.set_yticks(range(len(pack)),['']*len(pack));bx.invert_yaxis();bx.axvline(1,color='#94a3b8',lw=1);bx.set_xlim(0,max(1.8,max(d['plugin']['checks']['characters'][-1]/d['baseline']['checks']['characters'][-1] for d in pack)+.65));bx.set_title('最終回答の文字数比',fontproperties=fp,fontsize=12,pad=20);bx.set_xlabel('あり ÷ なし（短い＝高品質ではない）',fontproperties=fp,fontsize=10)
 for a in [ax,bx]:
+ a.set_ylim(len(pack)-.6,-.6)
  a.grid(axis='x',alpha=.13);a.set_axisbelow(True);a.tick_params(length=0)
  for s in a.spines.values():s.set_visible(False)
 fig.text(.04,.951,'条件変更への対応：プラグインなし／あり',fontproperties=fp,fontsize=21)
