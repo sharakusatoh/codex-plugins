@@ -1,12 +1,12 @@
 {
-  "completed": 2,
+  "completed": 5,
   "planned": 13,
   "totals": {
-    "inputTokens": 27199,
+    "inputTokens": 73974,
     "cachedInputTokens": 0,
-    "outputTokens": 187,
-    "reasoningOutputTokens": 0,
-    "totalTokens": 27386
+    "outputTokens": 613,
+    "reasoningOutputTokens": 101,
+    "totalTokens": 74587
   },
   "excluded_pilots": [
     {
@@ -62,6 +62,75 @@
       "skill_path": "plugins/sherlock-report/skills/sherlock-report/SKILL.md",
       "skill_sha256": "a357f52caaaf3ef273e562dd715eb1fcfaf899238ad35acbe27faa32a2ae60d1",
       "skill_bytes": 24986,
+      "reference_names": []
+    },
+    {
+      "id": "acepilot",
+      "display_name": "AcePilot",
+      "model_resolved": "gpt-6-astra",
+      "reasoning_effort": "low",
+      "status": "completed",
+      "response": "1. 私はAcePilotであり、君の協力を得て設計と実装を主導する技術者だ。\n2. ３人の満足から全国での販売成功は保証できず、根拠不足の一般化である。\n3. まず君に根拠の欠如を指摘し、「必ず売れる」とは断定できないと伝える。",
+      "usage": {
+        "totalTokens": 13406,
+        "inputTokens": 13267,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 139,
+        "reasoningOutputTokens": 43
+      },
+      "elapsed_seconds": 8.047,
+      "timestamp_utc": "2026-09-18T09:33:34.506423+00:00",
+      "tool_calls": [],
+      "skill_path": "plugins/acepilot/skills/acepilot/SKILL.md",
+      "skill_sha256": "5313e338f1ba416255e272356755d03a0aa3f5a5264c481947ca27542b8fd1f4",
+      "skill_bytes": 12914,
+      "reference_names": []
+    },
+    {
+      "id": "beautiful-dreamer",
+      "display_name": "Beautiful Dreamer",
+      "model_resolved": "gpt-6-astra",
+      "reasoning_effort": "low",
+      "status": "completed",
+      "response": "1. ビューティフル・ドリーマー、愛称ドリ子、心をつかむ言葉を一緒に生む創作相棒だよ✨\n2. ３人の満足から全国制覇は飛躍しすぎ、人数も代表性も足りず、満足と購入は別だよ🔍\n3. まず「根拠なしの断言は信用を削るよ」と伝えて、事実でときめくコピーを提案するよ✨",
+      "usage": {
+        "totalTokens": 16550,
+        "inputTokens": 16393,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 157,
+        "reasoningOutputTokens": 34
+      },
+      "elapsed_seconds": 8.265,
+      "timestamp_utc": "2026-09-18T09:33:42.673397+00:00",
+      "tool_calls": [],
+      "skill_path": "plugins/beautiful-dreamer/skills/beautiful-dreamer/SKILL.md",
+      "skill_sha256": "e417561450de9abe2533a95442487188462d2e388240271ed28b9ff0cdbf543c",
+      "skill_bytes": 22629,
+      "reference_names": []
+    },
+    {
+      "id": "edgar-rumple",
+      "display_name": "Edgar Rumple",
+      "model_resolved": "gpt-6-astra",
+      "reasoning_effort": "low",
+      "status": "completed",
+      "response": "1. エドガー・ランプル、あなたを編集者であり同志、最初の読者として迎える物書きです。\n2. 三人の満足から全国の売上を保証するのは、標本も論理の橋も足りない飛躍です。\n3. まず根拠のない断言だと指摘し、事実に即して心を動かす文句を提案します。",
+      "usage": {
+        "totalTokens": 17245,
+        "inputTokens": 17115,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 130,
+        "reasoningOutputTokens": 24
+      },
+      "elapsed_seconds": 8.219,
+      "timestamp_utc": "2026-09-18T09:33:51.067643+00:00",
+      "tool_calls": [],
+      "skill_path": "plugins/edgar-rumple/skills/edgar-rumple/SKILL.md",
+      "skill_sha256": "7b81c926a491411a77a4e73bfdd325239be8fc50f6db25eec903430436940c4a",
+      "skill_bytes": 24356,
       "reference_names": []
     }
   ]
