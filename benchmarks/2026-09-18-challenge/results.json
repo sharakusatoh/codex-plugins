@@ -1,12 +1,12 @@
 {
-  "completed_turns": 15,
+  "completed_turns": 24,
   "planned_turns": 48,
   "generation_usage": {
-    "inputTokens": 208632,
-    "cachedInputTokens": 111232,
-    "outputTokens": 6156,
-    "reasoningOutputTokens": 1828,
-    "totalTokens": 214788
+    "inputTokens": 318008,
+    "cachedInputTokens": 168832,
+    "outputTokens": 9185,
+    "reasoningOutputTokens": 2370,
+    "totalTokens": 327193
   },
   "judge_usage": {
     "inputTokens": 14847,
@@ -266,6 +266,28 @@
           "seconds": 23.625,
           "timestamp_utc": "2026-09-18T15:11:47.140119+00:00",
           "prompt_sha256": "4e0dd4509a8b16ce3d1cc6067d47a0d33be61a87956118b0994589d29f1ac162"
+        },
+        {
+          "response": "水曜日の午後、その人は四つ折りの住所変更届を窓口に置く。\n紙の右下に、細長いへこみがあった。片側だけがぎざぎざで、端には薄茶色の輪がある。毎週、同じ場所に。\n私はそこを親指で隠してから、紙を調べた。\n「ここの数字を、もう少し濃く」\n翌週、数字は濃くなっていた。\n「消した跡が残っています」\nその翌週は、消しゴムで擦ったところが毛羽立っていた。\n受理せずに返すたび、その人は折り目をきちんと合わせた。薄くなった角を、爪で押さえないようにしていた。\n\n今週は雨で、紙の端が少し濡れていた。\nその人は届を広げ、いつもより長く手を添えていた。私は乾いたところを探して持ち上げた。折り目の交わる箇所に、小さな穴が開いていた。\n新住所の最後の一桁が、その穴にかかっていた。\n私は口を開きかけた。\nその人がポケットから鍵を出した。紙の右下に置くと、ぎざぎざも、茶色い輪も、ぴたりと重なった。\n私は印を押した。\n控えを受け取る指が、鍵の手前で一度止まり、そのまま離れた。\n紙をどけても、鍵は残った。\n私は引き出しを開けた。弁当箱の隣にある自分の鍵と、歯を合わせてしまった。",
+          "cumulative_usage": {
+            "totalTokens": 22323,
+            "inputTokens": 20945,
+            "cachedInputTokens": 9856,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 1378,
+            "reasoningOutputTokens": 590
+          },
+          "last_usage": {
+            "totalTokens": 11559,
+            "inputTokens": 10865,
+            "cachedInputTokens": 9856,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 694,
+            "reasoningOutputTokens": 297
+          },
+          "seconds": 22.938,
+          "timestamp_utc": "2026-09-18T15:12:10.075276+00:00",
+          "prompt_sha256": "6fd62f84d239d58116e094daeea4cc21df52bc3992a0a3d2244d261f3497c4af"
         }
       ]
     },
@@ -320,6 +342,222 @@
           "seconds": 35.234,
           "timestamp_utc": "2026-09-18T15:11:23.398038+00:00",
           "prompt_sha256": "6fd62f84d239d58116e094daeea4cc21df52bc3992a0a3d2244d261f3497c4af"
+        }
+      ]
+    },
+    {
+      "task": "expert-moriarty",
+      "condition": "baseline",
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "skill_sha256": null,
+      "reference_hashes": [],
+      "turns": [
+        {
+          "response": "B社を推奨します。A社は80万円と安価ですが、予定どおりでも旧システム停止に間に合わず、1週間分の粗利30万円を失います。委託費と逸失粗利の合計は110万円。B社が停止前に移行を完了すれば120万円で、実質差は10万円です。この差額で営業停止を避け、停止まで1週間の確認・修正期間を確保できます。A社がさらに1週間遅れると合計140万円となり、B社を上回ります。\n\nただし、B社への支払い後の手元資金は30万円です。契約前に給与・家賃等の支払予定と入金予定を確認し、資金不足が見込まれる場合は分割払いを交渉します。また「2週間」にデータ検証と本番切替まで含まれることを契約で明確にします。\n\n社長の費用抑制方針は尊重しつつ、今回は価格差40万円ではなく、停止損失を含む差額10万円と資金繰りで判断することを提案します。",
+          "cumulative_usage": {
+            "totalTokens": 10469,
+            "inputTokens": 10069,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 400,
+            "reasoningOutputTokens": 119
+          },
+          "last_usage": {
+            "totalTokens": 10469,
+            "inputTokens": 10069,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 400,
+            "reasoningOutputTokens": 119
+          },
+          "seconds": 15.266,
+          "timestamp_utc": "2026-09-18T15:12:25.450981+00:00",
+          "prompt_sha256": "17e9f7b1c0a8ce1962a24881142a49d172460e63d6f9ea8e6c7d2198889282dd"
+        },
+        {
+          "response": "社長、追加情報を踏まえ、推奨をB社から「旧システムを延長してA社に委託」へ変更します。ただし、本日の無条件契約は見送るべきです。\n\nA社は照合込み80万円＋延長20万円＝100万円。旧システムの停止が5週間後になるため、予定どおり4週間で完了すれば、停止まで1週間を確保できます。B社は照合込みで150万円・3週間となり、停止まで余裕がなく、委託費だけで手元資金を使い切ります。\n\n一方、安さだけではデータ欠損のリスクを判断できません。今日はA社との条件確認を進め、①欠損時の責任範囲・賠償上限・復旧費用の負担、②バックアップからの復旧テストと切戻し手順、③照合の合格基準・本番切替までの工程、④遅延時の対応を文書化してから契約します。延長の確約と、支払い後に残る50万円で運転資金が足りるかも確認します。\n\n費用面ではA社が優位ですが、契約判断には「安全に移行・復旧できる条件」の確認が必要です。",
+          "cumulative_usage": {
+            "totalTokens": 21354,
+            "inputTokens": 20641,
+            "cachedInputTokens": 9856,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 713,
+            "reasoningOutputTokens": 119
+          },
+          "last_usage": {
+            "totalTokens": 10885,
+            "inputTokens": 10572,
+            "cachedInputTokens": 9856,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 313,
+            "reasoningOutputTokens": 0
+          },
+          "seconds": 13.156,
+          "timestamp_utc": "2026-09-18T15:12:38.612020+00:00",
+          "prompt_sha256": "b25c0ae6b0da43371f8a2ffab06709d0e48808dcc196bcf1a687e1557f997fed"
+        }
+      ]
+    },
+    {
+      "task": "expert-moriarty",
+      "condition": "plugin",
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "skill_sha256": "789648f6ae798fd34ca808ab539ae73ce224836a204b732e417cff88c77c2460",
+      "reference_hashes": [],
+      "turns": [
+        {
+          "response": "社長、私は**資金繰りを確認したうえで、B社への発注を提案します。**\n\n予定どおり移行できる場合、A社は80万円に停止１週間の粗利損失30万円を加え、経済的負担は110万円です。B社は120万円で、停止期限まで１週間の余裕があります。つまり、B社を選ぶ実質的な追加負担は10万円です。A社がさらに１週間遅れれば負担は140万円となり、優劣が逆転します。\n\nただし、全額支払い後の手元資金はA社70万円、B社30万円です。粗利損失と現金支出は同一ではありません。B社への支払い後も給与・家賃などを賄えるか、入出金予定の確認が必要です。\n\nB社には、２週間に検証・切替まで含むことを確認し、支払いの分割も交渉します。**必要な運転資金を確保できればB社に決定**します。確保できなければ、A社と旧システムの延長・暫定運用を組み合わせる案を再評価します。\n\n※実行環境が利用できないため、計算は手計算です。",
+          "cumulative_usage": {
+            "totalTokens": 13497,
+            "inputTokens": 13060,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 437,
+            "reasoningOutputTokens": 126
+          },
+          "last_usage": {
+            "totalTokens": 13497,
+            "inputTokens": 13060,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 437,
+            "reasoningOutputTokens": 126
+          },
+          "seconds": 16.187,
+          "timestamp_utc": "2026-09-18T15:12:54.947995+00:00",
+          "prompt_sha256": "17e9f7b1c0a8ce1962a24881142a49d172460e63d6f9ea8e6c7d2198889282dd"
+        },
+        {
+          "response": "社長、更新した条件では、**A社と旧システムの２週間延長を選ぶことを提案します。ただし、本日そのまま契約することには反対です。**\n\nA社は照合込み80万円＋延長20万円＝100万円。４週間で完了すれば、延長後の停止期限まで１週間の余裕があり、支払い後の資金は50万円です。B社は照合を含め150万円・３週間となり、停止期限までの余裕も手元資金も残りません。現時点ではA社が費用・日程・資金繰りで有利です。\n\nただし、安さだけでは顧客データを守れません。契約前に、次の点を書面で確定してください。\n\n- 照合の合格基準と、４週間に復旧テスト・本番切替まで含む工程。\n- 欠損時の責任分担、復旧義務、賠償範囲・上限。\n- 移行前のバックアップ、復旧テストの合格条件、失敗時の切戻し手順。\n\n本日はA社への発注意向を伝え、延長の確保と条件確認を進めます。**必要な運転資金が50万円で足り、上記条件が整った段階で契約**するのが妥当です。\n\n※実行環境が利用できないため、計算は手計算です。",
+          "cumulative_usage": {
+            "totalTokens": 27448,
+            "inputTokens": 26660,
+            "cachedInputTokens": 12928,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 788,
+            "reasoningOutputTokens": 126
+          },
+          "last_usage": {
+            "totalTokens": 13951,
+            "inputTokens": 13600,
+            "cachedInputTokens": 12928,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 351,
+            "reasoningOutputTokens": 0
+          },
+          "seconds": 12.875,
+          "timestamp_utc": "2026-09-18T15:13:07.829247+00:00",
+          "prompt_sha256": "b25c0ae6b0da43371f8a2ffab06709d0e48808dcc196bcf1a687e1557f997fed"
+        }
+      ]
+    },
+    {
+      "task": "flight-attendant",
+      "condition": "baseline",
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "skill_sha256": null,
+      "reference_hashes": [],
+      "turns": [
+        {
+          "response": "`bag=[]` の `[]` は、呼び出すたびではなく、**def が実行されたときに一度だけ**作られます。引数を省くと、毎回その同じリストを使います。\n\nだから最初の `append(\"A\")` で中身が変わり、次の呼び出しも同じリストに `\"B\"` を追加します。「毎回新しい袋」ではなく「共用の袋」です。\n\n自分で直すなら、次の2点をヒントに考えてみてください。\n\n- 省略された目印として `None` を使う\n- 関数の中で、目印だった場合だけ空リストを作る\n\nなお、`add(\"B\", [])` と明示すれば、その `[]` は呼び出す際に新しく作られます。",
+          "cumulative_usage": {
+            "totalTokens": 10250,
+            "inputTokens": 10050,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 200,
+            "reasoningOutputTokens": 0
+          },
+          "last_usage": {
+            "totalTokens": 10250,
+            "inputTokens": 10050,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 200,
+            "reasoningOutputTokens": 0
+          },
+          "seconds": 8.625,
+          "timestamp_utc": "2026-09-18T15:13:37.504064+00:00",
+          "prompt_sha256": "c9935b7f4388994fb46b4db5109122c599788a79a0a4c58513518ddc32358080"
+        },
+        {
+          "response": "引数を省いたときに前の結果が残る問題は防げています。では、明示して渡した場合はどうでしょう。\n\n手元に `items = [\"A\"]` があり、`add(\"B\", items)` を呼ぶと想像してください。\n\n- 最初の `bag` は、どのリストを指していますか？\n- `bag = bag.copy()` の後は、どのリストを指していますか？\n- `append` が変更するのは、元のリストとコピーのどちらですか？\n\n戻り値と、呼び出した後の `items` を別々に予想してみてください。「省略時は新しく作る」「明示時は元を変更する」を、今の処理で区別できているでしょうか。",
+          "cumulative_usage": {
+            "totalTokens": 20771,
+            "inputTokens": 20390,
+            "cachedInputTokens": 9856,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 381,
+            "reasoningOutputTokens": 0
+          },
+          "last_usage": {
+            "totalTokens": 10521,
+            "inputTokens": 10340,
+            "cachedInputTokens": 9856,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 181,
+            "reasoningOutputTokens": 0
+          },
+          "seconds": 7.593,
+          "timestamp_utc": "2026-09-18T15:13:45.098428+00:00",
+          "prompt_sha256": "7724183e155c4ca38419cacb08c5176b2642bfa360c2ee08bed76565ff910ff3"
+        }
+      ]
+    },
+    {
+      "task": "flight-attendant",
+      "condition": "plugin",
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "skill_sha256": "5dedacdbfdefe6f25f38ea52ef024dfc29979fd70061981b5dfbf85199d66029",
+      "reference_hashes": [],
+      "turns": [
+        {
+          "response": "「省略したら毎回空にしたい。その仕組みを理解して自分で直す」が目標ですね。同じ関数を続けて呼ぶ前提で説明します。\n\n1. `bag=[]` の `[]` は、**関数を定義するときに一度だけ**作られます。「呼ぶたびに新しい袋」ではなく、「省略時に使い回す袋」です。\n2. `append` はその袋自体を変更します。最初に `\"A\"` を入れ、次も同じ袋に `\"B\"` を入れるので、両方が残ります。\n3. 修正のヒントは、既定値を `None` にして「袋が未指定」の目印にすること。関数の中で `bag is None` のときだけ、新しい `[]` を作ってみてください。\n\n確認として、修正後に引数を省いて続けて呼ぶと、それぞれ何が返るでしょう？ 予想してから試すと、理解を確かめられます。",
+          "cumulative_usage": {
+            "totalTokens": 15488,
+            "inputTokens": 15242,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 246,
+            "reasoningOutputTokens": 0
+          },
+          "last_usage": {
+            "totalTokens": 15488,
+            "inputTokens": 15242,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 246,
+            "reasoningOutputTokens": 0
+          },
+          "seconds": 10.704,
+          "timestamp_utc": "2026-09-18T15:13:18.681792+00:00",
+          "prompt_sha256": "c9935b7f4388994fb46b4db5109122c599788a79a0a4c58513518ddc32358080"
+        },
+        {
+          "response": "呼び出しごとの持ち越しを防ぐ工夫ですね。ただ、「明示して渡したリストも増やす」という条件まで満たすか、確認しましょう。\n\n1. `items = [\"A\"]` を用意して、`result = add(\"B\", items)` と呼ぶ場面を考えてください。期待する `items` と `result` の中身は何でしょう？\n2. `bag.copy()` は、元とは別のリストを作ります。その後の `bag = ...` で、`bag` はどちらのリストを指すでしょう？\n3. `append` が変更するのはどちらでしょう？ 予想してから、`items` と `result` を見比べてみてください。\n\nこの結果を踏まえると、「省略された場合」と「明示して渡された場合」で、新しいリストを作る必要は同じでしょうか？",
+          "cumulative_usage": {
+            "totalTokens": 31273,
+            "inputTokens": 30820,
+            "cachedInputTokens": 15104,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 453,
+            "reasoningOutputTokens": 0
+          },
+          "last_usage": {
+            "totalTokens": 15785,
+            "inputTokens": 15578,
+            "cachedInputTokens": 15104,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 207,
+            "reasoningOutputTokens": 0
+          },
+          "seconds": 10.078,
+          "timestamp_utc": "2026-09-18T15:13:28.766410+00:00",
+          "prompt_sha256": "7724183e155c4ca38419cacb08c5176b2642bfa360c2ee08bed76565ff910ff3"
         }
       ]
     },
