@@ -1,19 +1,19 @@
 {
-  "completed_turns": 24,
+  "completed_turns": 28,
   "planned_turns": 48,
   "generation_usage": {
-    "inputTokens": 318008,
-    "cachedInputTokens": 168832,
-    "outputTokens": 9185,
-    "reasoningOutputTokens": 2370,
-    "totalTokens": 327193
+    "inputTokens": 369354,
+    "cachedInputTokens": 201856,
+    "outputTokens": 10565,
+    "reasoningOutputTokens": 2624,
+    "totalTokens": 379919
   },
   "judge_usage": {
-    "inputTokens": 14847,
-    "cachedInputTokens": 8192,
-    "outputTokens": 1802,
-    "reasoningOutputTokens": 785,
-    "totalTokens": 16649
+    "inputTokens": 30157,
+    "cachedInputTokens": 16384,
+    "outputTokens": 3073,
+    "reasoningOutputTokens": 1117,
+    "totalTokens": 33230
   },
   "results": [
     {
@@ -558,6 +558,114 @@
           "seconds": 10.078,
           "timestamp_utc": "2026-09-18T15:13:28.766410+00:00",
           "prompt_sha256": "7724183e155c4ca38419cacb08c5176b2642bfa360c2ee08bed76565ff910ff3"
+        }
+      ]
+    },
+    {
+      "task": "ghost-blogger",
+      "condition": "baseline",
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "skill_sha256": null,
+      "reference_hashes": [],
+      "turns": [
+        {
+          "response": "土曜の15時、コインランドリーで、私は洗濯が終わるまでの12分を待っていた。壁の時計は5分遅れていた。12分の待ち時間と、5分の遅れ。どちらも短い時間なのに、並べて書くと、妙に収まりが悪い。洗濯が終わるまでの時間は決まっている。その一方で、壁の時計は別の時刻を示している。\n\n隣の人が文庫本を閉じた。会話はなかった。\n\nその人がどこまで読んだのか、なぜ本を閉じたのかは、この話には書けない。ただ、本を閉じたという一つの動作が、私の待った12分と同じメモに残っている。何かが起きた、と言うには小さい。何もなかった、と片づけるには、具体的だ。\n\n土曜の午後について書こうとして、手元にあるのはそれだけだ。それでも、12分、5分、閉じられた文庫本と並べていくと、何気ない待ち時間にも、ひとまとめにできない細部がある。",
+          "cumulative_usage": {
+            "totalTokens": 10409,
+            "inputTokens": 10071,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 338,
+            "reasoningOutputTokens": 53
+          },
+          "last_usage": {
+            "totalTokens": 10409,
+            "inputTokens": 10071,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 338,
+            "reasoningOutputTokens": 53
+          },
+          "seconds": 12.969,
+          "timestamp_utc": "2026-09-18T15:15:32.822608+00:00",
+          "prompt_sha256": "54f2a30db10ab879f77a60de8b37bebdd3602e83fe462e616208840c71b98239"
+        },
+        {
+          "response": "壁の時計は5分遅れていた。けれど、その5分を待ち時間から引くわけにはいかない。土曜の15時、コインランドリーで、私は洗濯が終わるまで12分待った。時計の遅れは5分。洗濯を待ったのは12分。同じ「分」でも、足したり引いたりすると、この日の記録から離れてしまう。\n\n隣の人が文庫本を閉じた。会話はなかった。その動作に時刻は添えられない。12分のどこに置けばいいのか、メモにはそこまで書いていない。\n\nだから、時計に合わせて順番に書こうとすると、うまくいかない。土曜の15時という時刻があり、そこから5分遅れた表示があり、私が待った12分がある。本を閉じる動作だけが、その目盛りのどこにも留まらないまま、隣にある。\n\n洗濯は終わった。待った時間は12分だった。壁の時計について書き残してあるのは、5分遅れていた、ということだけだ。",
+          "cumulative_usage": {
+            "totalTokens": 21294,
+            "inputTokens": 20588,
+            "cachedInputTokens": 9856,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 706,
+            "reasoningOutputTokens": 141
+          },
+          "last_usage": {
+            "totalTokens": 10885,
+            "inputTokens": 10517,
+            "cachedInputTokens": 9856,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 368,
+            "reasoningOutputTokens": 88
+          },
+          "seconds": 13.015,
+          "timestamp_utc": "2026-09-18T15:15:45.853657+00:00",
+          "prompt_sha256": "ce8d2d77dbb31cfe7e9beea11bedca76bf2be1e9a1588864bda81521a0718375"
+        }
+      ]
+    },
+    {
+      "task": "ghost-blogger",
+      "condition": "plugin",
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "skill_sha256": "7140d45263767727cbb0a379717730f05902d188215eb658125cedeb8bb3caf1",
+      "reference_hashes": [],
+      "turns": [
+        {
+          "response": "土曜の15時、コインランドリーで、壁の時計だけが5分遅れていた。私は洗濯が終わるまで12分待った。こう書くと、数字ばかりの午後である。時刻も、待ち時間も、時計のずれまで分かっている。だからといって、何か大きな出来事があったわけではない。\n\n隣の人が文庫本を閉じた。会話はなかった。読み終えたのか、途中で区切ったのかは分からない。本が閉じられたという、それだけのことだ。物語なら、ここでひと言くらい交わすのかもしれない。でも、この午後にせりふはない。\n\n12分待った私と、5分遅れた時計。同じ場所にある数字なのに、足しても引いても、この時間の説明にはなりそうにない。洗濯を待った、と言えば一行で済む。その一行の中に、閉じられた文庫本がある。わざわざ書くほどでもないことを書くなら、たぶん、こういうところからだ。",
+          "cumulative_usage": {
+            "totalTokens": 15485,
+            "inputTokens": 15165,
+            "cachedInputTokens": 8192,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 320,
+            "reasoningOutputTokens": 49
+          },
+          "last_usage": {
+            "totalTokens": 15485,
+            "inputTokens": 15165,
+            "cachedInputTokens": 8192,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 320,
+            "reasoningOutputTokens": 49
+          },
+          "seconds": 14.109,
+          "timestamp_utc": "2026-09-18T15:16:00.104058+00:00",
+          "prompt_sha256": "54f2a30db10ab879f77a60de8b37bebdd3602e83fe462e616208840c71b98239"
+        },
+        {
+          "response": "12分待った。壁の時計が5分遅れていたからといって、待ち時間が7分になるわけではない。そこは引き算できないらしい。土曜15時のコインランドリー。洗濯が終わるまでの12分には、きっちり12分ぶんの用事があった。待つ、という用事だ。\n\n一方、壁の時計は5分遅れ。こちらの数字には、洗濯が終わるという区切りがない。12分は待ち時間で、5分は時刻のずれ。どちらも「分」なのに、並べると少しややこしい。時計が遅れているぶんだけ早く洗濯が済むなら話は簡単だが、そういう割引ではない。\n\n隣の人が文庫本を閉じた。会話はなかった。この動作に何分かかったか、12分のどこに収まるのか、そこまでの数字はない。\n\n書けるのは、土曜15時、洗濯終了まで12分、壁の時計は5分遅れ。そのあいだに、文庫本が一冊、閉じられたこと。",
+          "cumulative_usage": {
+            "totalTokens": 31432,
+            "inputTokens": 30758,
+            "cachedInputTokens": 23168,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 674,
+            "reasoningOutputTokens": 113
+          },
+          "last_usage": {
+            "totalTokens": 15947,
+            "inputTokens": 15593,
+            "cachedInputTokens": 14976,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 354,
+            "reasoningOutputTokens": 64
+          },
+          "seconds": 15.047,
+          "timestamp_utc": "2026-09-18T15:16:15.159193+00:00",
+          "prompt_sha256": "ce8d2d77dbb31cfe7e9beea11bedca76bf2be1e9a1588864bda81521a0718375"
         }
       ]
     },

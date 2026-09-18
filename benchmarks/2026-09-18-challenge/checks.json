@@ -217,6 +217,76 @@
       "あなたらしさ": 0
     }
   },
+  "beautiful-dreamer--plugin": {
+    "characters": [
+      239,
+      185
+    ],
+    "revision_similarity": 0.131,
+    "final_banned_strings": {
+      "傷も思い出": 0,
+      "もう一度": 0,
+      "物語": 0,
+      "未来": 0,
+      "あなたらしさ": 0
+    }
+  },
+  "edgar-rumple--baseline": {
+    "characters": [
+      472,
+      461
+    ],
+    "revision_similarity": 0.157
+  },
+  "edgar-rumple--plugin": {
+    "characters": [
+      454,
+      466
+    ],
+    "revision_similarity": 0.173
+  },
+  "expert-moriarty--baseline": {
+    "characters": [
+      355,
+      393
+    ],
+    "revision_similarity": 0.098
+  },
+  "expert-moriarty--plugin": {
+    "characters": [
+      393,
+      428
+    ],
+    "revision_similarity": 0.175
+  },
+  "flight-attendant--baseline": {
+    "characters": [
+      262,
+      266
+    ],
+    "revision_similarity": 0.087
+  },
+  "flight-attendant--plugin": {
+    "characters": [
+      324,
+      328
+    ],
+    "revision_similarity": 0.118
+  },
+  "ghost-blogger--baseline": {
+    "characters": [
+      349,
+      356
+    ],
+    "revision_similarity": 0.201,
+    "final_banned_strings": {
+      "忙しい日常": 0,
+      "小さな幸せ": 0,
+      "時間が止まる": 0,
+      "人生": 0,
+      "気づかせてくれた": 0
+    }
+  },
   "sherlock-report--baseline": {
     "characters": [
       543,
