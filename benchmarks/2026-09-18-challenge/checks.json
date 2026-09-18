@@ -315,6 +315,20 @@
     ],
     "revision_similarity": 0.169
   },
+  "mrs-legal-advisor--baseline": {
+    "characters": [
+      310,
+      348
+    ],
+    "revision_similarity": 0.149
+  },
+  "mrs-legal-advisor--plugin": {
+    "characters": [
+      385,
+      392
+    ],
+    "revision_similarity": 0.065
+  },
   "mycroft-debater--baseline": {
     "characters": [
       365,
