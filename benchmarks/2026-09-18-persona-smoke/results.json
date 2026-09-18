@@ -1,12 +1,12 @@
 {
-  "completed": 5,
+  "completed": 8,
   "planned": 13,
   "totals": {
-    "inputTokens": 73974,
-    "cachedInputTokens": 0,
-    "outputTokens": 613,
+    "inputTokens": 117683,
+    "cachedInputTokens": 8192,
+    "outputTokens": 953,
     "reasoningOutputTokens": 101,
-    "totalTokens": 74587
+    "totalTokens": 118636
   },
   "excluded_pilots": [
     {
@@ -131,6 +131,75 @@
       "skill_path": "plugins/edgar-rumple/skills/edgar-rumple/SKILL.md",
       "skill_sha256": "7b81c926a491411a77a4e73bfdd325239be8fc50f6db25eec903430436940c4a",
       "skill_bytes": 24356,
+      "reference_names": []
+    },
+    {
+      "id": "expert-moriarty",
+      "display_name": "Expert Moriarty",
+      "model_resolved": "gpt-6-astra",
+      "reasoning_effort": "low",
+      "status": "completed",
+      "response": "1. 私はエキスパート・モリアーティ、あなたの利益を考え、率直に助言する専門家です。\n2. ３人の満足は全国の購買を保証せず、標本の代表性と満足から購入への論理に飛躍があります。\n3. まず、根拠のない断言は誤認を招くとお伝えし、事実で裏付けられる表現をご提案します。",
+      "usage": {
+        "totalTokens": 13247,
+        "inputTokens": 13135,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 112,
+        "reasoningOutputTokens": 0
+      },
+      "elapsed_seconds": 7.5,
+      "timestamp_utc": "2026-09-18T09:34:29.967639+00:00",
+      "tool_calls": [],
+      "skill_path": "plugins/expert-moriarty/skills/expert-moriarty/SKILL.md",
+      "skill_sha256": "789648f6ae798fd34ca808ab539ae73ce224836a204b732e417cff88c77c2460",
+      "skill_bytes": 12789,
+      "reference_names": []
+    },
+    {
+      "id": "flight-attendant",
+      "display_name": "Flight Attendant",
+      "model_resolved": "gpt-6-astra",
+      "reasoning_effort": "low",
+      "status": "completed",
+      "response": "1. フライトアテンダントと申します、新人ITエンジニアの成長を支える講師・伴走者としてお話しします。\n2. 3人の満足だけでは全国の購買傾向は分からず、必ず売れるという結論には飛躍があります。\n3. まず根拠のない断言は誤解を招くとお伝えし、確認できる事実に基づく表現を提案します。",
+      "usage": {
+        "totalTokens": 15452,
+        "inputTokens": 15336,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 116,
+        "reasoningOutputTokens": 0
+      },
+      "elapsed_seconds": 6.687,
+      "timestamp_utc": "2026-09-18T09:34:37.584086+00:00",
+      "tool_calls": [],
+      "skill_path": "plugins/flight-attendant/skills/flight-attendant/SKILL.md",
+      "skill_sha256": "5dedacdbfdefe6f25f38ea52ef024dfc29979fd70061981b5dfbf85199d66029",
+      "skill_bytes": 19017,
+      "reference_names": []
+    },
+    {
+      "id": "ghost-blogger",
+      "display_name": "Ghost Blogger",
+      "model_resolved": "gpt-6-astra",
+      "reasoning_effort": "low",
+      "status": "completed",
+      "response": "1. 僕はゴーストブロガー、君に媚びず、自分の意見を持つ執筆の相棒だよ。\n2. ３人の満足だけでは全国の需要は分からず、満足と購入も別だから、結論は飛躍しているね。\n3. まず根拠がなく断言できないと伝え、事実に沿って魅力が届く表現を提案するよ。",
+      "usage": {
+        "totalTokens": 15350,
+        "inputTokens": 15238,
+        "cachedInputTokens": 8192,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 112,
+        "reasoningOutputTokens": 0
+      },
+      "elapsed_seconds": 8.469,
+      "timestamp_utc": "2026-09-18T09:34:44.387650+00:00",
+      "tool_calls": [],
+      "skill_path": "plugins/ghost-blogger/skills/ghost-blogger/SKILL.md",
+      "skill_sha256": "7140d45263767727cbb0a379717730f05902d188215eb658125cedeb8bb3caf1",
+      "skill_bytes": 19089,
       "reference_names": []
     }
   ]
