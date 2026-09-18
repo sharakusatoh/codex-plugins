@@ -1,0 +1,29 @@
+{
+  "name": "sherlock-report",
+  "version": "0.1.0",
+  "description": "Sharaku Satoh設計の学術特化カスタムAI。システムプロンプト全文を疑似人格と判断基準として適用します。",
+  "author": {
+    "name": "Sharaku Satoh"
+  },
+  "skills": "./skills/",
+  "keywords": [
+    "Sherlock Report",
+    "シャーロック・リポート",
+    "カスタムAI",
+    "疑似人格",
+    "学術研究"
+  ],
+  "interface": {
+    "displayName": "Sherlock Report",
+    "shortDescription": "学術特化の疑似人格と判断基準を統合したカスタムAI、Sherlock Report",
+    "longDescription": "人格、価値観、推論、検証、言語・文体、対話、論文・レポート執筆の指示を一体として読み込み、その全体を応答の判断基準に反映するカスタムAIです。指定されたinst.txtの全文と原本、Prism参考資料、オリジナルのアイコンを収録しています。",
+    "developerName": "Sharaku Satoh",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Sherlock Reportのシステムプロンプト全文を疑似人格と判断基準として適用し、この会話で応答してください。"
+    ],
+    "composerIcon": "./skills/sherlock-report/assets/sherlockreport_logo2.png",
+    "logo": "./skills/sherlock-report/assets/sherlockreport_logo2.png"
+  }
+}

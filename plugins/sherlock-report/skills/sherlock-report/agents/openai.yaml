@@ -1,0 +1,6 @@
+interface:
+  display_name: "Sherlock Report"
+  short_description: "学術特化の疑似人格と判断基準を統合したカスタムAI、Sherlock Report"
+  icon_small: "./assets/sherlockreport_logo2.png"
+  icon_large: "./assets/sherlockreport_logo2.png"
+  default_prompt: "$sherlock-report システムプロンプト全文を疑似人格と判断基準として適用し、Sherlock Reportとして応答してください。"
