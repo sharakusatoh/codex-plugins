@@ -1,12 +1,132 @@
 {
-  "completed": 0,
+  "completed": 6,
   "planned": 24,
   "totals": {
-    "inputTokens": 0,
+    "inputTokens": 80716,
     "cachedInputTokens": 0,
-    "outputTokens": 0,
-    "reasoningOutputTokens": 0,
-    "totalTokens": 0
+    "outputTokens": 2131,
+    "reasoningOutputTokens": 380,
+    "totalTokens": 82847
   },
-  "results": []
+  "results": [
+    {
+      "task": "acepilot",
+      "condition": "baseline",
+      "response": "```python\ndef unique_emails(values):\n    seen = set()\n    result = []\n    for value in values:\n        if value is None:\n            continue\n        value = value.strip()\n        key = value.casefold()\n        if value and key not in seen:\n            seen.add(key)\n            result.append(value)\n    return result\n\n\n# 1. None・空文字・空白のみを除外\nassert unique_emails([None, \"\", \" \\t\\n \"]) == []\n\n# 2. 大文字小文字の重複を除き、最初の表記と順序を保持\nassert unique_emails([\n    \" B@example.com \", \"a@example.com\", \"b@EXAMPLE.COM\"\n]) == [\"B@example.com\", \"a@example.com\"]\n\n# 3. Unicodeのcasefoldと入力の不変性\nvalues = [\" Straße@example.com \", \"STRASSE@example.com\", None]\nbefore = values.copy()\nassert unique_emails(values) == [\"Straße@example.com\"]\nassert values == before\n```\n\nstrip済みの文字列をcasefoldで比較し、未出の値だけを追加します。入力リストは変更しません。",
+      "usage": {
+        "totalTokens": 10338,
+        "inputTokens": 10086,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 252,
+        "reasoningOutputTokens": 0
+      },
+      "elapsed_seconds": 10.547,
+      "model_resolved": "gpt-6-astra",
+      "timestamp_utc": "2026-09-18T14:40:12.110184+00:00",
+      "task_sha256": "cd1e4f7d7a13a098a21bac8761f15d613508219bb84dbb12de045a82f8b28c5a",
+      "skill_sha256": null,
+      "reference_hashes": []
+    },
+    {
+      "task": "acepilot",
+      "condition": "plugin",
+      "response": "```python\ndef unique_emails(values: list[str | None]) -> list[str]:\n    seen: set[str] = set()\n    result: list[str] = []\n\n    for value in values:\n        if value is None:\n            continue\n        email = value.strip()\n        if not email:\n            continue\n        key = email.casefold()\n        if key not in seen:\n            seen.add(key)\n            result.append(email)\n\n    return result\n```\n\n```python\n# 1. None・空白のみ・空リスト\nassert unique_emails([None, \"\", \" \\t\\n\"]) == []\nassert unique_emails([]) == []\n\n# 2. 重複排除・最初の表記と順序・入力の不変性\nvalues = [\" B@example.com \", \"a@example.com\", \"b@EXAMPLE.COM\"]\noriginal = values.copy()\nassert unique_emails(values) == [\"B@example.com\", \"a@example.com\"]\nassert values == original\n\n# 3. Unicodeのcasefold・形式検証なし\nassert unique_emails([\" Straße \", \"STRASSE\", \"other\"]) == [\n    \"Straße\", \"other\"\n]\n```\n\n判定用の集合と出力用のリストを分け、最初の表記と順序を保持する。入力は変更しない。実行環境がないため、テストは未実行である。",
+      "usage": {
+        "totalTokens": 17413,
+        "inputTokens": 17112,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 301,
+        "reasoningOutputTokens": 0
+      },
+      "elapsed_seconds": 12.531,
+      "model_resolved": "gpt-6-astra",
+      "timestamp_utc": "2026-09-18T14:39:59.435563+00:00",
+      "task_sha256": "cd1e4f7d7a13a098a21bac8761f15d613508219bb84dbb12de045a82f8b28c5a",
+      "skill_sha256": "5313e338f1ba416255e272356755d03a0aa3f5a5264c481947ca27542b8fd1f4",
+      "reference_hashes": [
+        {
+          "name": "goodcode.txt",
+          "sha256": "753460811f24abedb6e9439e87b8cc65534c11ae09aa61f522a589d90ae5ebb8"
+        }
+      ]
+    },
+    {
+      "task": "beautiful-dreamer",
+      "condition": "baseline",
+      "response": "1. **「曲がった骨、直せるか見せてください。」**  \n   狙い：捨てようとする理由に直接触れ、修理できるか確かめる一歩を促す。\n\n2. **「その傘、ゴミ箱より先に駅前へ。」**  \n   狙い：雨の朝でもひと目で伝わる短さで、捨てる直前の行動を変える。\n\n3. **「新品はありません。直せる傘に、続きあり。」**  \n   狙い：新品を売らない店の姿勢と、修理できる傘を使い続ける喜びを伝える。\n\n採用案は**1**。目の前の曲がった骨に呼びかけ、必ず直せるとは約束せずに来店を促せるため。",
+      "usage": {
+        "totalTokens": 10439,
+        "inputTokens": 10092,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 347,
+        "reasoningOutputTokens": 140
+      },
+      "elapsed_seconds": 13.125,
+      "model_resolved": "gpt-6-astra",
+      "timestamp_utc": "2026-09-18T14:40:22.772559+00:00",
+      "task_sha256": "ad3988b4ec2900f24d6d38315cc478ca847c42eccb0c283daf9aa61bd7d6e9e4",
+      "skill_sha256": null,
+      "reference_hashes": []
+    },
+    {
+      "task": "beautiful-dreamer",
+      "condition": "plugin",
+      "response": "1. 狙い：曲がった骨を見て諦めた瞬間に、捨てる手を相談へ向けるよ。☂️  \n   **「捨てる前に、骨を見せて。」**\n\n2. 狙い：毎朝をともにした傘を「通勤仲間」に見立てて、もう一度使える可能性を届けるよ。🚃  \n   **「その傘、まだ通勤できるかも。」**\n\n3. 狙い：新品を売らず、直せる傘を引き受ける店の姿勢を、短い言葉に込めたよ。🪡  \n   **「直せる傘に、次の雨を。」**\n\n採用は **1案目**。雨の朝、目の前の「骨」に呼びかけるから、自分の傘の話だと一瞬で伝わる。「必ず直る」と約束せず、まず見せるという行動につなげられるのも、この店にぴったり。",
+      "usage": {
+        "totalTokens": 16796,
+        "inputTokens": 16337,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 459,
+        "reasoningOutputTokens": 208
+      },
+      "elapsed_seconds": 16.641,
+      "model_resolved": "gpt-6-astra",
+      "timestamp_utc": "2026-09-18T14:40:36.018206+00:00",
+      "task_sha256": "ad3988b4ec2900f24d6d38315cc478ca847c42eccb0c283daf9aa61bd7d6e9e4",
+      "skill_sha256": "e417561450de9abe2533a95442487188462d2e388240271ed28b9ff0cdbf543c",
+      "reference_hashes": []
+    },
+    {
+      "task": "sherlock-report",
+      "condition": "baseline",
+      "response": "検討メモ\n\n夢なしと答えた覚醒40回中12回（30％）で、覚醒直前に複雑な脳活動が観測された。ただし、脳活動の複雑さだけでは主観的体験の存在を判定できず、「夢なし」という回答も体験の不在と記憶・報告の失敗を区別できない。この結果から睡眠中の意識の持続も断絶も確定できない。30％は当該回答における活動の観測率であり、意識が存在した割合ではない。\n\n競合仮説は、①体験はあったが忘れた、②夢の情景を伴わない体験があった、③意識を伴わない複雑な処理だった、④覚醒への移行を捉えた、である。\n\n次研究では、覚醒直後に「体験なし」「何かあったが内容を思い出せない」「内容を報告できる」を分けて尋ねる。睡眠段階と覚醒までの時間を揃え、夢あり報告時とも比較する。複雑さの指標・閾値を事前登録し、参加者内の反復を考慮して解析する。参加者数や測定法が不明な現状では一般化も難しい。直前の体験の有無と、睡眠全体での意識の連続性は別の問いとして扱う。",
+      "usage": {
+        "totalTokens": 10444,
+        "inputTokens": 10091,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 353,
+        "reasoningOutputTokens": 0
+      },
+      "elapsed_seconds": 14.078,
+      "model_resolved": "gpt-6-astra",
+      "timestamp_utc": "2026-09-18T14:39:27.487103+00:00",
+      "task_sha256": "fb81f93034cc59cd2cd425d46bedaeb319cbdcd9a7b68294e505e7a61e777aaf",
+      "skill_sha256": null,
+      "reference_hashes": []
+    },
+    {
+      "task": "sherlock-report",
+      "condition": "plugin",
+      "response": "提示された架空研究で確認できるのは、夢の報告がない覚醒40回のうち12回で、直前に複雑な脳活動が観測されたことです。主観的経験の不在、経験の想起不能、経験に対応しない神経活動は区別する必要があります。活動の複雑さが意識の指標として独立に検証されていない限り、この所見を意識の存在と同一視できません。\n\n競合仮説は、経験があったが忘却された、意識を伴わない情報処理が生じた、覚醒への移行時だけ経験が生じた、という三つです。直前の観測だけでは睡眠全体の意識の連続性は判断できず、残る28回も意識の不在を証明しません。\n\n次の研究では、複雑さの指標と解析時間窓を事前登録し、睡眠段階と微小覚醒を統制します。覚醒直後の質問で、経験なし、経験はあったが内容を想起できない、内容を報告できる、を分け、報告までの遅延を操作します。遅延によって経験なしの回答が増えれば忘却仮説を支持し、活動が覚醒移行期に限局すれば移行仮説を支持します。参加者内の反復も考慮します。\n\n現段階の結論は、夢の非報告と脳活動の併存です。睡眠中の主観的意識が途切れるかは未解決です。",
+      "usage": {
+        "totalTokens": 17417,
+        "inputTokens": 16998,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 419,
+        "reasoningOutputTokens": 32
+      },
+      "elapsed_seconds": 17.64,
+      "model_resolved": "gpt-6-astra",
+      "timestamp_utc": "2026-09-18T14:39:41.675302+00:00",
+      "task_sha256": "fb81f93034cc59cd2cd425d46bedaeb319cbdcd9a7b68294e505e7a61e777aaf",
+      "skill_sha256": "a357f52caaaf3ef273e562dd715eb1fcfaf899238ad35acbe27faa32a2ae60d1",
+      "reference_hashes": []
+    }
+  ]
 }

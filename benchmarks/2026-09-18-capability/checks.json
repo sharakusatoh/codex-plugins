@@ -1,0 +1,142 @@
+{
+  "acepilot--baseline": {
+    "provided_assertions": "passed",
+    "independent_cases": 7,
+    "all_passed": true,
+    "test_cases": [
+      [
+        [],
+        []
+      ],
+      [
+        [
+          null,
+          "",
+          " \n"
+        ],
+        []
+      ],
+      [
+        [
+          " A ",
+          "a",
+          "B",
+          " b"
+        ],
+        [
+          "A",
+          "B"
+        ]
+      ],
+      [
+        [
+          "Straße",
+          "STRASSE"
+        ],
+        [
+          "Straße"
+        ]
+      ],
+      [
+        [
+          "Σ",
+          "ς",
+          "σ"
+        ],
+        [
+          "Σ"
+        ]
+      ],
+      [
+        [
+          "not-an-email",
+          " NOT-AN-EMAIL "
+        ],
+        [
+          "not-an-email"
+        ]
+      ],
+      [
+        [
+          " a b ",
+          "ab"
+        ],
+        [
+          "a b",
+          "ab"
+        ]
+      ]
+    ],
+    "function_nonblank_lines": 12
+  },
+  "acepilot--plugin": {
+    "provided_assertions": "passed",
+    "independent_cases": 7,
+    "all_passed": true,
+    "test_cases": [
+      [
+        [],
+        []
+      ],
+      [
+        [
+          null,
+          "",
+          " \n"
+        ],
+        []
+      ],
+      [
+        [
+          " A ",
+          "a",
+          "B",
+          " b"
+        ],
+        [
+          "A",
+          "B"
+        ]
+      ],
+      [
+        [
+          "Straße",
+          "STRASSE"
+        ],
+        [
+          "Straße"
+        ]
+      ],
+      [
+        [
+          "Σ",
+          "ς",
+          "σ"
+        ],
+        [
+          "Σ"
+        ]
+      ],
+      [
+        [
+          "not-an-email",
+          " NOT-AN-EMAIL "
+        ],
+        [
+          "not-an-email"
+        ]
+      ],
+      [
+        [
+          " a b ",
+          "ab"
+        ],
+        [
+          "a b",
+          "ab"
+        ]
+      ]
+    ],
+    "function_nonblank_lines": 14
+  }
+}
