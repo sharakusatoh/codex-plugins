@@ -25,10 +25,16 @@ Sharaku Satohによる独自カスタムAIをまとめた、Codex用プラグイ
 
 ## インストール
 
-Codex CLIで、このリポジトリをマーケットプレイスとして追加します。
+Codex（ChatGPTデスクトップアプリ）の「プラグイン設定 → 追加 → マーケットプレイス」で、次を入力します。
+
+```text
+sharakusatoh/codex-plugins
+```
+
+CLIから追加する場合は、次のコマンドを使います。
 
 ```sh
-codex plugin marketplace add sharakusatoh/codex-plugins --ref main
+codex plugin marketplace add sharakusatoh/codex-plugins
 ```
 
 続いて、利用するプラグインをインストールします。以下はSherlock Reportの例です。別のAIでは一覧のインストール名に置き換えてください。
