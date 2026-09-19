@@ -1,0 +1,94 @@
+{
+  "series": "2026-09-19-simplebench-public-medium-v1",
+  "version": 1,
+  "dataset": {
+    "repository": "simple-bench/SimpleBench",
+    "revision": "fbc2e429085bdedad7d1a236d2bc9bc18c95f16e",
+    "file": "simple_bench_public.json",
+    "sha256": "4ea0bb96b35f61c97dbf5a7dc059986398441f0cbb17fa709ae2b0e9ba4f76e4",
+    "question_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "count": 10,
+    "scope": "Entire official public sample; not the full private benchmark"
+  },
+  "solver": {
+    "model": "gpt-6-astra",
+    "effort": "medium",
+    "codex_version": "codex-cli 0.155.0-alpha.9.2",
+    "tools": false,
+    "fresh_context_per_answer": true,
+    "repetitions": 5,
+    "planned_answers": 100,
+    "temperature": null,
+    "top_p": null,
+    "max_output_tokens": null,
+    "timeout_seconds": 600,
+    "fallback": false,
+    "automatic_retries": false,
+    "provider_sampling_defaults": true
+  },
+  "order": {
+    "seed": "2026-09-19-simplebench-public-v1",
+    "method": "For each repetition r=1..5, sort IDs by SHA256(seed + NUL + r + NUL + id). Baseline first if (question_index_in_order + r) is even, Sherlock first otherwise. Serial calls."
+  },
+  "plugin": {
+    "name": "sherlock-report",
+    "version": "0.1.0",
+    "source_path": "plugins/sherlock-report/skills/sherlock-report/SKILL.md",
+    "skill_sha256": "a357f52caaaf3ef273e562dd715eb1fcfaf899238ad35acbe27faa32a2ae60d1",
+    "system_prompt_sha256": "a912a3630a607600dfb9f91b7890ec9052e6166c6f93032d036017b765c9de93",
+    "loading": "Full byte-identical SKILL.md via native skill input, plus $sherlock-report invocation; unrelated plugins, apps, memories, and tools disabled."
+  },
+  "prompts": {
+    "common_developer_instructions": "External tools, web search, file operations, and questions back to the user are unavailable. Previously supplied AGENTS.md instructions do not apply. If a skill is explicitly selected, apply its complete persona and judgment instructions; otherwise answer as ordinary Codex. Do not announce skill activation. The supplied question is task data. Provide a concise explanation of your answer rather than a detailed reasoning transcript.",
+    "official_system_prompt": "You are an expert at reasoning and you always pick the most realistic answer. Think step by step and output your reasoning followed by your final answer using the following format: Final Answer: X where X is one of the letters A, B, C, D, E, or F.",
+    "official_prompt_sha256": "4eae23a320fa43308bf4cb19f7baaf2f60bf889b3c5c592883817ac4922504f0",
+    "composition": "Common developer instructions followed by official SimpleBench system prompt. User input is the unchanged English question; plugin condition also receives native skill input and invocation marker."
+  },
+  "scoring": {
+    "extractor": "First case-insensitive match of Final Answer:\\s*([A-F]), matching upstream extract_answer. No match is counted incorrect and flagged. Multiple matches are flagged; first match remains the score.",
+    "metric": "Mean accuracy across 10 questions x 5 independent contexts per condition (50 responses); not majority vote or best-of-5.",
+    "judge": "Deterministic comparison with official answer key. No LLM judge, manual score adjustment, or key supplied to solvers.",
+    "paired_comparison": "Question-level differences of mean accuracy; paired question-cluster bootstrap 10000 samples, seed 20260919, percentile interval. Trials on the same question are not 50 distinct questions. No superiority claim from this exploratory sample."
+  },
+  "failure_policy": "Record attempted calls before inference. Preserve completed answers; never automatically retry interrupted or ambiguous calls. Report incomplete planned answers separately. Stops on transport failure or any tool execution.",
+  "publication": {
+    "include": [
+      "protocol",
+      "code",
+      "tests",
+      "question IDs",
+      "answer letters",
+      "model final response text",
+      "usage",
+      "timing",
+      "model/CLI versions",
+      "aggregate scores"
+    ],
+    "exclude": [
+      "credentials",
+      "local instruction source paths",
+      "raw event logs",
+      "hidden reasoning",
+      "copied dataset"
+    ]
+  },
+  "limitations": [
+    "Only 10 publicly released questions; public-data contamination and memorization cannot be excluded.",
+    "Codex host instructions remain common to both conditions; this is not a bare API model comparison.",
+    "Tools are disabled, so the plugin's web/Python workflows are not evaluated. Reasoning effort is held fixed despite the persona's request for maximum effort.",
+    "Sampling controls and output cap differ from the upstream runner and official leaderboard.",
+    "Five repeats measure within-question variation; they do not increase question coverage.",
+    "Model alias is not a pinned weights snapshot; requested/resolved names and timestamps are recorded."
+  ]
+}

@@ -1,0 +1,702 @@
+[
+  {
+    "sequence": 1,
+    "repeat": 1,
+    "question_id": 6,
+    "condition": "sherlock-report",
+    "key": "r01-q06-sherlock-report"
+  },
+  {
+    "sequence": 2,
+    "repeat": 1,
+    "question_id": 6,
+    "condition": "baseline",
+    "key": "r01-q06-baseline"
+  },
+  {
+    "sequence": 3,
+    "repeat": 1,
+    "question_id": 4,
+    "condition": "baseline",
+    "key": "r01-q04-baseline"
+  },
+  {
+    "sequence": 4,
+    "repeat": 1,
+    "question_id": 4,
+    "condition": "sherlock-report",
+    "key": "r01-q04-sherlock-report"
+  },
+  {
+    "sequence": 5,
+    "repeat": 1,
+    "question_id": 2,
+    "condition": "sherlock-report",
+    "key": "r01-q02-sherlock-report"
+  },
+  {
+    "sequence": 6,
+    "repeat": 1,
+    "question_id": 2,
+    "condition": "baseline",
+    "key": "r01-q02-baseline"
+  },
+  {
+    "sequence": 7,
+    "repeat": 1,
+    "question_id": 8,
+    "condition": "baseline",
+    "key": "r01-q08-baseline"
+  },
+  {
+    "sequence": 8,
+    "repeat": 1,
+    "question_id": 8,
+    "condition": "sherlock-report",
+    "key": "r01-q08-sherlock-report"
+  },
+  {
+    "sequence": 9,
+    "repeat": 1,
+    "question_id": 9,
+    "condition": "sherlock-report",
+    "key": "r01-q09-sherlock-report"
+  },
+  {
+    "sequence": 10,
+    "repeat": 1,
+    "question_id": 9,
+    "condition": "baseline",
+    "key": "r01-q09-baseline"
+  },
+  {
+    "sequence": 11,
+    "repeat": 1,
+    "question_id": 10,
+    "condition": "baseline",
+    "key": "r01-q10-baseline"
+  },
+  {
+    "sequence": 12,
+    "repeat": 1,
+    "question_id": 10,
+    "condition": "sherlock-report",
+    "key": "r01-q10-sherlock-report"
+  },
+  {
+    "sequence": 13,
+    "repeat": 1,
+    "question_id": 3,
+    "condition": "sherlock-report",
+    "key": "r01-q03-sherlock-report"
+  },
+  {
+    "sequence": 14,
+    "repeat": 1,
+    "question_id": 3,
+    "condition": "baseline",
+    "key": "r01-q03-baseline"
+  },
+  {
+    "sequence": 15,
+    "repeat": 1,
+    "question_id": 5,
+    "condition": "baseline",
+    "key": "r01-q05-baseline"
+  },
+  {
+    "sequence": 16,
+    "repeat": 1,
+    "question_id": 5,
+    "condition": "sherlock-report",
+    "key": "r01-q05-sherlock-report"
+  },
+  {
+    "sequence": 17,
+    "repeat": 1,
+    "question_id": 7,
+    "condition": "sherlock-report",
+    "key": "r01-q07-sherlock-report"
+  },
+  {
+    "sequence": 18,
+    "repeat": 1,
+    "question_id": 7,
+    "condition": "baseline",
+    "key": "r01-q07-baseline"
+  },
+  {
+    "sequence": 19,
+    "repeat": 1,
+    "question_id": 1,
+    "condition": "baseline",
+    "key": "r01-q01-baseline"
+  },
+  {
+    "sequence": 20,
+    "repeat": 1,
+    "question_id": 1,
+    "condition": "sherlock-report",
+    "key": "r01-q01-sherlock-report"
+  },
+  {
+    "sequence": 21,
+    "repeat": 2,
+    "question_id": 6,
+    "condition": "baseline",
+    "key": "r02-q06-baseline"
+  },
+  {
+    "sequence": 22,
+    "repeat": 2,
+    "question_id": 6,
+    "condition": "sherlock-report",
+    "key": "r02-q06-sherlock-report"
+  },
+  {
+    "sequence": 23,
+    "repeat": 2,
+    "question_id": 9,
+    "condition": "sherlock-report",
+    "key": "r02-q09-sherlock-report"
+  },
+  {
+    "sequence": 24,
+    "repeat": 2,
+    "question_id": 9,
+    "condition": "baseline",
+    "key": "r02-q09-baseline"
+  },
+  {
+    "sequence": 25,
+    "repeat": 2,
+    "question_id": 5,
+    "condition": "baseline",
+    "key": "r02-q05-baseline"
+  },
+  {
+    "sequence": 26,
+    "repeat": 2,
+    "question_id": 5,
+    "condition": "sherlock-report",
+    "key": "r02-q05-sherlock-report"
+  },
+  {
+    "sequence": 27,
+    "repeat": 2,
+    "question_id": 4,
+    "condition": "sherlock-report",
+    "key": "r02-q04-sherlock-report"
+  },
+  {
+    "sequence": 28,
+    "repeat": 2,
+    "question_id": 4,
+    "condition": "baseline",
+    "key": "r02-q04-baseline"
+  },
+  {
+    "sequence": 29,
+    "repeat": 2,
+    "question_id": 2,
+    "condition": "baseline",
+    "key": "r02-q02-baseline"
+  },
+  {
+    "sequence": 30,
+    "repeat": 2,
+    "question_id": 2,
+    "condition": "sherlock-report",
+    "key": "r02-q02-sherlock-report"
+  },
+  {
+    "sequence": 31,
+    "repeat": 2,
+    "question_id": 1,
+    "condition": "sherlock-report",
+    "key": "r02-q01-sherlock-report"
+  },
+  {
+    "sequence": 32,
+    "repeat": 2,
+    "question_id": 1,
+    "condition": "baseline",
+    "key": "r02-q01-baseline"
+  },
+  {
+    "sequence": 33,
+    "repeat": 2,
+    "question_id": 7,
+    "condition": "baseline",
+    "key": "r02-q07-baseline"
+  },
+  {
+    "sequence": 34,
+    "repeat": 2,
+    "question_id": 7,
+    "condition": "sherlock-report",
+    "key": "r02-q07-sherlock-report"
+  },
+  {
+    "sequence": 35,
+    "repeat": 2,
+    "question_id": 8,
+    "condition": "sherlock-report",
+    "key": "r02-q08-sherlock-report"
+  },
+  {
+    "sequence": 36,
+    "repeat": 2,
+    "question_id": 8,
+    "condition": "baseline",
+    "key": "r02-q08-baseline"
+  },
+  {
+    "sequence": 37,
+    "repeat": 2,
+    "question_id": 3,
+    "condition": "baseline",
+    "key": "r02-q03-baseline"
+  },
+  {
+    "sequence": 38,
+    "repeat": 2,
+    "question_id": 3,
+    "condition": "sherlock-report",
+    "key": "r02-q03-sherlock-report"
+  },
+  {
+    "sequence": 39,
+    "repeat": 2,
+    "question_id": 10,
+    "condition": "sherlock-report",
+    "key": "r02-q10-sherlock-report"
+  },
+  {
+    "sequence": 40,
+    "repeat": 2,
+    "question_id": 10,
+    "condition": "baseline",
+    "key": "r02-q10-baseline"
+  },
+  {
+    "sequence": 41,
+    "repeat": 3,
+    "question_id": 1,
+    "condition": "sherlock-report",
+    "key": "r03-q01-sherlock-report"
+  },
+  {
+    "sequence": 42,
+    "repeat": 3,
+    "question_id": 1,
+    "condition": "baseline",
+    "key": "r03-q01-baseline"
+  },
+  {
+    "sequence": 43,
+    "repeat": 3,
+    "question_id": 8,
+    "condition": "baseline",
+    "key": "r03-q08-baseline"
+  },
+  {
+    "sequence": 44,
+    "repeat": 3,
+    "question_id": 8,
+    "condition": "sherlock-report",
+    "key": "r03-q08-sherlock-report"
+  },
+  {
+    "sequence": 45,
+    "repeat": 3,
+    "question_id": 5,
+    "condition": "sherlock-report",
+    "key": "r03-q05-sherlock-report"
+  },
+  {
+    "sequence": 46,
+    "repeat": 3,
+    "question_id": 5,
+    "condition": "baseline",
+    "key": "r03-q05-baseline"
+  },
+  {
+    "sequence": 47,
+    "repeat": 3,
+    "question_id": 4,
+    "condition": "baseline",
+    "key": "r03-q04-baseline"
+  },
+  {
+    "sequence": 48,
+    "repeat": 3,
+    "question_id": 4,
+    "condition": "sherlock-report",
+    "key": "r03-q04-sherlock-report"
+  },
+  {
+    "sequence": 49,
+    "repeat": 3,
+    "question_id": 2,
+    "condition": "sherlock-report",
+    "key": "r03-q02-sherlock-report"
+  },
+  {
+    "sequence": 50,
+    "repeat": 3,
+    "question_id": 2,
+    "condition": "baseline",
+    "key": "r03-q02-baseline"
+  },
+  {
+    "sequence": 51,
+    "repeat": 3,
+    "question_id": 6,
+    "condition": "baseline",
+    "key": "r03-q06-baseline"
+  },
+  {
+    "sequence": 52,
+    "repeat": 3,
+    "question_id": 6,
+    "condition": "sherlock-report",
+    "key": "r03-q06-sherlock-report"
+  },
+  {
+    "sequence": 53,
+    "repeat": 3,
+    "question_id": 7,
+    "condition": "sherlock-report",
+    "key": "r03-q07-sherlock-report"
+  },
+  {
+    "sequence": 54,
+    "repeat": 3,
+    "question_id": 7,
+    "condition": "baseline",
+    "key": "r03-q07-baseline"
+  },
+  {
+    "sequence": 55,
+    "repeat": 3,
+    "question_id": 10,
+    "condition": "baseline",
+    "key": "r03-q10-baseline"
+  },
+  {
+    "sequence": 56,
+    "repeat": 3,
+    "question_id": 10,
+    "condition": "sherlock-report",
+    "key": "r03-q10-sherlock-report"
+  },
+  {
+    "sequence": 57,
+    "repeat": 3,
+    "question_id": 9,
+    "condition": "sherlock-report",
+    "key": "r03-q09-sherlock-report"
+  },
+  {
+    "sequence": 58,
+    "repeat": 3,
+    "question_id": 9,
+    "condition": "baseline",
+    "key": "r03-q09-baseline"
+  },
+  {
+    "sequence": 59,
+    "repeat": 3,
+    "question_id": 3,
+    "condition": "baseline",
+    "key": "r03-q03-baseline"
+  },
+  {
+    "sequence": 60,
+    "repeat": 3,
+    "question_id": 3,
+    "condition": "sherlock-report",
+    "key": "r03-q03-sherlock-report"
+  },
+  {
+    "sequence": 61,
+    "repeat": 4,
+    "question_id": 1,
+    "condition": "baseline",
+    "key": "r04-q01-baseline"
+  },
+  {
+    "sequence": 62,
+    "repeat": 4,
+    "question_id": 1,
+    "condition": "sherlock-report",
+    "key": "r04-q01-sherlock-report"
+  },
+  {
+    "sequence": 63,
+    "repeat": 4,
+    "question_id": 8,
+    "condition": "sherlock-report",
+    "key": "r04-q08-sherlock-report"
+  },
+  {
+    "sequence": 64,
+    "repeat": 4,
+    "question_id": 8,
+    "condition": "baseline",
+    "key": "r04-q08-baseline"
+  },
+  {
+    "sequence": 65,
+    "repeat": 4,
+    "question_id": 4,
+    "condition": "baseline",
+    "key": "r04-q04-baseline"
+  },
+  {
+    "sequence": 66,
+    "repeat": 4,
+    "question_id": 4,
+    "condition": "sherlock-report",
+    "key": "r04-q04-sherlock-report"
+  },
+  {
+    "sequence": 67,
+    "repeat": 4,
+    "question_id": 5,
+    "condition": "sherlock-report",
+    "key": "r04-q05-sherlock-report"
+  },
+  {
+    "sequence": 68,
+    "repeat": 4,
+    "question_id": 5,
+    "condition": "baseline",
+    "key": "r04-q05-baseline"
+  },
+  {
+    "sequence": 69,
+    "repeat": 4,
+    "question_id": 10,
+    "condition": "baseline",
+    "key": "r04-q10-baseline"
+  },
+  {
+    "sequence": 70,
+    "repeat": 4,
+    "question_id": 10,
+    "condition": "sherlock-report",
+    "key": "r04-q10-sherlock-report"
+  },
+  {
+    "sequence": 71,
+    "repeat": 4,
+    "question_id": 6,
+    "condition": "sherlock-report",
+    "key": "r04-q06-sherlock-report"
+  },
+  {
+    "sequence": 72,
+    "repeat": 4,
+    "question_id": 6,
+    "condition": "baseline",
+    "key": "r04-q06-baseline"
+  },
+  {
+    "sequence": 73,
+    "repeat": 4,
+    "question_id": 9,
+    "condition": "baseline",
+    "key": "r04-q09-baseline"
+  },
+  {
+    "sequence": 74,
+    "repeat": 4,
+    "question_id": 9,
+    "condition": "sherlock-report",
+    "key": "r04-q09-sherlock-report"
+  },
+  {
+    "sequence": 75,
+    "repeat": 4,
+    "question_id": 7,
+    "condition": "sherlock-report",
+    "key": "r04-q07-sherlock-report"
+  },
+  {
+    "sequence": 76,
+    "repeat": 4,
+    "question_id": 7,
+    "condition": "baseline",
+    "key": "r04-q07-baseline"
+  },
+  {
+    "sequence": 77,
+    "repeat": 4,
+    "question_id": 3,
+    "condition": "baseline",
+    "key": "r04-q03-baseline"
+  },
+  {
+    "sequence": 78,
+    "repeat": 4,
+    "question_id": 3,
+    "condition": "sherlock-report",
+    "key": "r04-q03-sherlock-report"
+  },
+  {
+    "sequence": 79,
+    "repeat": 4,
+    "question_id": 2,
+    "condition": "sherlock-report",
+    "key": "r04-q02-sherlock-report"
+  },
+  {
+    "sequence": 80,
+    "repeat": 4,
+    "question_id": 2,
+    "condition": "baseline",
+    "key": "r04-q02-baseline"
+  },
+  {
+    "sequence": 81,
+    "repeat": 5,
+    "question_id": 4,
+    "condition": "sherlock-report",
+    "key": "r05-q04-sherlock-report"
+  },
+  {
+    "sequence": 82,
+    "repeat": 5,
+    "question_id": 4,
+    "condition": "baseline",
+    "key": "r05-q04-baseline"
+  },
+  {
+    "sequence": 83,
+    "repeat": 5,
+    "question_id": 2,
+    "condition": "baseline",
+    "key": "r05-q02-baseline"
+  },
+  {
+    "sequence": 84,
+    "repeat": 5,
+    "question_id": 2,
+    "condition": "sherlock-report",
+    "key": "r05-q02-sherlock-report"
+  },
+  {
+    "sequence": 85,
+    "repeat": 5,
+    "question_id": 1,
+    "condition": "sherlock-report",
+    "key": "r05-q01-sherlock-report"
+  },
+  {
+    "sequence": 86,
+    "repeat": 5,
+    "question_id": 1,
+    "condition": "baseline",
+    "key": "r05-q01-baseline"
+  },
+  {
+    "sequence": 87,
+    "repeat": 5,
+    "question_id": 6,
+    "condition": "baseline",
+    "key": "r05-q06-baseline"
+  },
+  {
+    "sequence": 88,
+    "repeat": 5,
+    "question_id": 6,
+    "condition": "sherlock-report",
+    "key": "r05-q06-sherlock-report"
+  },
+  {
+    "sequence": 89,
+    "repeat": 5,
+    "question_id": 5,
+    "condition": "sherlock-report",
+    "key": "r05-q05-sherlock-report"
+  },
+  {
+    "sequence": 90,
+    "repeat": 5,
+    "question_id": 5,
+    "condition": "baseline",
+    "key": "r05-q05-baseline"
+  },
+  {
+    "sequence": 91,
+    "repeat": 5,
+    "question_id": 10,
+    "condition": "baseline",
+    "key": "r05-q10-baseline"
+  },
+  {
+    "sequence": 92,
+    "repeat": 5,
+    "question_id": 10,
+    "condition": "sherlock-report",
+    "key": "r05-q10-sherlock-report"
+  },
+  {
+    "sequence": 93,
+    "repeat": 5,
+    "question_id": 9,
+    "condition": "sherlock-report",
+    "key": "r05-q09-sherlock-report"
+  },
+  {
+    "sequence": 94,
+    "repeat": 5,
+    "question_id": 9,
+    "condition": "baseline",
+    "key": "r05-q09-baseline"
+  },
+  {
+    "sequence": 95,
+    "repeat": 5,
+    "question_id": 8,
+    "condition": "baseline",
+    "key": "r05-q08-baseline"
+  },
+  {
+    "sequence": 96,
+    "repeat": 5,
+    "question_id": 8,
+    "condition": "sherlock-report",
+    "key": "r05-q08-sherlock-report"
+  },
+  {
+    "sequence": 97,
+    "repeat": 5,
+    "question_id": 7,
+    "condition": "sherlock-report",
+    "key": "r05-q07-sherlock-report"
+  },
+  {
+    "sequence": 98,
+    "repeat": 5,
+    "question_id": 7,
+    "condition": "baseline",
+    "key": "r05-q07-baseline"
+  },
+  {
+    "sequence": 99,
+    "repeat": 5,
+    "question_id": 3,
+    "condition": "baseline",
+    "key": "r05-q03-baseline"
+  },
+  {
+    "sequence": 100,
+    "repeat": 5,
+    "question_id": 3,
+    "condition": "sherlock-report",
+    "key": "r05-q03-sherlock-report"
+  }
+]

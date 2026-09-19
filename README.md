@@ -65,3 +65,7 @@ codex-plugins/
 カスタムAIの移植では、システムプロンプトの原本を保存し、その全文を起動時に読み込む構成を維持します。詳細は [AGENTS.md](AGENTS.md) を参照してください。
 
 仕様・配布方法は [OpenAI公式ドキュメント](https://developers.openai.com/plugins/build/plugins) を参照してください。
+
+## ベンチマーク
+
+- [SimpleBench公開10問：プラグインなし / Sherlock Report](benchmarks/simplebench/)：同一モデル・同一推論設定で全10問を各5回。実行条件、採点コード、回答と使用量を公開します。

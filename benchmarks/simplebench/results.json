@@ -1,0 +1,247 @@
+{
+  "series": "2026-09-19-simplebench-public-medium-v1",
+  "status": "registered",
+  "completed_answers": 0,
+  "planned_answers": 100,
+  "registration_commit": null,
+  "started_at": null,
+  "completed_at": null,
+  "protocol_sha256": null,
+  "source_hashes": null,
+  "skill_discovery": null,
+  "summary": {
+    "baseline": {
+      "completed": 0,
+      "planned": 50,
+      "correct": 0,
+      "accuracy_pct": null,
+      "format_issues": 0,
+      "mean_seconds": null,
+      "median_seconds": null,
+      "usage": {
+        "inputTokens": 0,
+        "cachedInputTokens": 0,
+        "outputTokens": 0,
+        "reasoningOutputTokens": 0,
+        "totalTokens": 0
+      }
+    },
+    "sherlock-report": {
+      "completed": 0,
+      "planned": 50,
+      "correct": 0,
+      "accuracy_pct": null,
+      "format_issues": 0,
+      "mean_seconds": null,
+      "median_seconds": null,
+      "usage": {
+        "inputTokens": 0,
+        "cachedInputTokens": 0,
+        "outputTokens": 0,
+        "reasoningOutputTokens": 0,
+        "totalTokens": 0
+      }
+    }
+  },
+  "comparison": {
+    "both_correct": 0,
+    "baseline_only": 0,
+    "sherlock_only": 0,
+    "both_incorrect": 0,
+    "complete_pairs": 0,
+    "difference_percentage_points": null,
+    "paired_question_bootstrap_95pct_pp": null,
+    "question_clusters": 10,
+    "inference_scope": "Exploratory public sample; repeats are not new questions."
+  },
+  "by_question": [
+    {
+      "question_id": 1,
+      "baseline": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      },
+      "sherlock-report": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      }
+    },
+    {
+      "question_id": 2,
+      "baseline": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      },
+      "sherlock-report": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      }
+    },
+    {
+      "question_id": 3,
+      "baseline": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      },
+      "sherlock-report": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      }
+    },
+    {
+      "question_id": 4,
+      "baseline": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      },
+      "sherlock-report": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      }
+    },
+    {
+      "question_id": 5,
+      "baseline": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      },
+      "sherlock-report": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      }
+    },
+    {
+      "question_id": 6,
+      "baseline": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      },
+      "sherlock-report": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      }
+    },
+    {
+      "question_id": 7,
+      "baseline": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      },
+      "sherlock-report": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      }
+    },
+    {
+      "question_id": 8,
+      "baseline": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      },
+      "sherlock-report": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      }
+    },
+    {
+      "question_id": 9,
+      "baseline": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      },
+      "sherlock-report": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      }
+    },
+    {
+      "question_id": 10,
+      "baseline": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      },
+      "sherlock-report": {
+        "correct": 0,
+        "completed": 0,
+        "answers": []
+      }
+    }
+  ],
+  "by_repetition": [
+    {
+      "repeat": 1,
+      "baseline": {
+        "correct": 0,
+        "completed": 0
+      },
+      "sherlock-report": {
+        "correct": 0,
+        "completed": 0
+      }
+    },
+    {
+      "repeat": 2,
+      "baseline": {
+        "correct": 0,
+        "completed": 0
+      },
+      "sherlock-report": {
+        "correct": 0,
+        "completed": 0
+      }
+    },
+    {
+      "repeat": 3,
+      "baseline": {
+        "correct": 0,
+        "completed": 0
+      },
+      "sherlock-report": {
+        "correct": 0,
+        "completed": 0
+      }
+    },
+    {
+      "repeat": 4,
+      "baseline": {
+        "correct": 0,
+        "completed": 0
+      },
+      "sherlock-report": {
+        "correct": 0,
+        "completed": 0
+      }
+    },
+    {
+      "repeat": 5,
+      "baseline": {
+        "correct": 0,
+        "completed": 0
+      },
+      "sherlock-report": {
+        "correct": 0,
+        "completed": 0
+      }
+    }
+  ],
+  "trials": []
+}
