@@ -50,6 +50,8 @@ def main():
     fig.subplots_adjust(left=.065, right=.98, top=.74, bottom=.19, wspace=.32)
     fig.savefig(ROOT / 'comparison.svg', facecolor=fig.get_facecolor(), metadata={'Date': None})
     fig.savefig(ROOT / 'comparison.png', facecolor=fig.get_facecolor(), dpi=170)
+    svg = ROOT / 'comparison.svg'
+    svg.write_text('\n'.join(line.rstrip() for line in svg.read_text(encoding='utf-8').splitlines()) + '\n', encoding='utf-8', newline='\n')
     print('Wrote comparison.svg and comparison.png')
 
 

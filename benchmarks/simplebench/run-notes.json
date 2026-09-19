@@ -1,0 +1,20 @@
+{
+  "series": "2026-09-19-simplebench-public-medium-v1",
+  "interruptions": [
+    {
+      "sequence": 45,
+      "repeat": 3,
+      "question_id": 5,
+      "condition": "sherlock-report",
+      "timestamp_utc": "2026-09-19T03:31:54.068045+00:00",
+      "error_code": "usageLimitExceeded",
+      "response_returned": false,
+      "usage_returned": false,
+      "tools_observed": 0,
+      "completed_answers_preserved": 44,
+      "manual_reviewed_at": "2026-09-19T09:39:01.366859+00:00",
+      "resolution": "Fresh usage check confirmed availability after reset. Resume only this unanswered item and the remaining planned items. Original model, effort, prompts, schedule and scoring remain unchanged.",
+      "usage_limitation": "The rejected call returned no usage; zero usage is not asserted."
+    }
+  ]
+}

@@ -149,6 +149,8 @@ def render(cache):
               f'- [SimpleBench公式データとコード](https://github.com/simple-bench/SimpleBench/tree/{rev})。取得したJSONのSHA-256はprotocol.jsonに保存。上流のMITライセンスは [SIMPLEBENCH-LICENSE.txt](SIMPLEBENCH-LICENSE.txt) に収録。',
               '- [SimpleBench公式サイト](https://simple-bench.com/)',
               '- [Codex App Server公式資料](https://developers.openai.com/ja-JP/docs/app-server)', '']
+    if (ROOT / 'REPORT-NOTES.md').is_file():
+        lines += ['', (ROOT / 'REPORT-NOTES.md').read_text(encoding='utf-8').strip(), '']
     (ROOT / 'README.md').write_text('\n'.join(lines), encoding='utf-8', newline='\n')
     print(json.dumps({'completed': count, 'summary': summary, 'comparison': comparison}, ensure_ascii=False), flush=True)
     return result
